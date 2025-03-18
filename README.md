@@ -12,9 +12,9 @@ This is my GitHub profile. I'm passionate about machine learning, artificial int
 ## 🔧 Technologies & Tools
 - Programming Languages: Python
 - Machine Learning: TensorFlow, Scikit-learn
-- OCR Tools: Tesseract, OpenCV
+- OCR Tools: OpenCV, Tesseract
 - Version Control: Git, GitHub
-
+- Web Development: HTML, CSS, Javascript
 
 ## 🌟 Projects
 - **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
