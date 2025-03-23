@@ -3,10 +3,10 @@ This is my GitHub profile. I'm passionate about machine learning, artificial int
 
 
 ## 🚀 About Me
-- 💻 I specialize in developing deep learning-based object detection and OCR algorithms.
-- 🔍 I have a keen interest in machine learning and artificial intelligence.
-- 📚 I love exploring new technologies and staying updated with the tech world.
-- 🌐 I'm open to collaborating on interesting projects and open-source communities.
+- I specialize in developing deep learning-based object detection and OCR algorithms.
+- I have a keen interest in machine learning and artificial intelligence.
+- I love exploring new technologies and staying updated with the tech world.
+- I'm open to collaborating on interesting projects and open-source communities.
 
 
 ## 🔧 Technologies & Tools
