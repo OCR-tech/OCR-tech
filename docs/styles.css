@@ -12,9 +12,12 @@ body {
 }
 
 header {
-    background: #333;
+    background: #535353;
     color: white;
     padding: 10px 0;
+    font-family: 'arial black', sans-serif;
+    text-transform: uppercase;
+    text-align: center; 
 }
 
 header h1 {
@@ -36,6 +39,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 section {
     padding: 40px 0;
     background: #f4f4f4;
@@ -53,7 +61,7 @@ h2 {
 }
 
 .project {
-    width: 30%;
+    width: 25%;
     background: white;
     padding: 20px;
     margin: 10px;
@@ -61,20 +69,7 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-}
 
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
 
 footer {
     background: #333;
