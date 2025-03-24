@@ -64,13 +64,27 @@ h2 {
 
 .project {
     width: 25%;
-    min-width: 300px;
+    /* min-width: 250px; */
     background: white;
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .project {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
 }
 
 .button {
