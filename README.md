@@ -31,7 +31,7 @@ This is my GitHub profile. I'm passionate about machine learning, artificial int
 ## 🌟 Projects
 <!-- - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 - **[AdaptDL](https://github.com/OCR-tech/AdaptDL)**: An advanced real-time object detection based on voice speech command using deep learning. -->
-- <a href="https://github.com/OCR-tech/CubeOCR"><b>CubeOCR</b></a>: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
+- <a href="https://github.com/OCR-tech/CubeOCR"><b>CubeOCR123</b></a>: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 - <a href="https://github.com/OCR-tech/AdaptDL"><b>AdaptDL</b></a>: An advanced real-time object detection based on voice speech command using deep learning.
 
 
