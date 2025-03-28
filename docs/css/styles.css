@@ -17,7 +17,7 @@ body {
 .container-text {
     width: 65%;
     /* width: auto; */
-    border: 5px solid rgb(185, 185, 185); 
+    border: 1px solid rgb(185, 185, 185); 
     border-radius: 15px; 
     padding: 45px; 
     margin: auto;
@@ -39,6 +39,54 @@ body {
 }
 
 
+#project {
+    background-color: rgb(100,100,100); 
+}
+
+
+.projects {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 85%; */
+    width: auto;
+    margin: auto;
+    /* border: 1px solid rgb(285,285,285);  */
+    border-radius: 15px;     
+    /* margin-top: 35px; */
+    background-color: rgb(100,100,100); 
+}
+
+.project {
+    width: 25%;
+    min-width: 325px;
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffc5;
+}
+
+
+
+/* #list1 {
+    background-color: rgb(255,255,255); 
+}
+
+#list2 {
+    background-color: rgb(235, 235, 235); 
+}
+
+#list3 {
+    background-color: rgb(255,255,255); 
+} */
+
 
 .column-project {
     width: 75%;
@@ -46,7 +94,6 @@ body {
     border-radius: 25px; 
     margin: auto;
     /* margin-bottom: 35px; */
-
 }
 
 
@@ -177,31 +224,6 @@ footer {
 }
 
 
-.projects {
-    display: flex;
-    /* justify-content: space-around; */
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 85%;
-    margin: auto;
-    border: 1px solid rgb(185, 185, 185); 
-    border-radius: 15px;     
-    margin-top: 35px;
-}
-
-.project {
-    width: 25%;
-    min-width: 25%;
-    background: white;
-    border-radius: 15px;
-    padding: 25px;
-    margin: 30px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-}
 
 
 
@@ -228,6 +250,7 @@ footer {
 .button-round {
     min-height: 45px;
     min-width: 75px;
+    max-width: 100px;
     border: 1px solid #0360df;
     border-radius: 50px;
     background-color: #0360df;
@@ -276,9 +299,9 @@ footer a {
 
 
 @media (max-width: 768px) {
-    /* .project {
+    .project {
         width: 100%;
-    } */
+    }
 
     /* .bi {
         width: 24px;
@@ -292,8 +315,6 @@ footer a {
     
     .container-text {
         width: 90%;
-        border: 3px solid rgb(15, 15, 185); 
-        /* border-radius: 15px;  */
         padding: 25px; 
         /* margin: auto; */
         /* margin-top: 25px; */
@@ -311,4 +332,9 @@ footer a {
         text-transform: uppercase;
         text-align: center; 
     }
+
+    .button-round {
+        max-width: 100px;
+    }
+
 }
