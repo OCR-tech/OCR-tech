@@ -14,6 +14,18 @@ body {
 }
 
 
+.container-text {
+    /* width: 65%; */
+    width: 65%;
+    border: 1px solid rgb(185, 185, 185); 
+    border-radius: 15px; 
+    padding: 45px; 
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+
 .container-button {
     /* width: 80%; */
     /* margin: auto; */
@@ -26,16 +38,6 @@ body {
     /* margin-bottom: 5px; */
 }
 
-
-
-.container-text {
-    width: 65%;
-    border: 1px solid rgb(185, 185, 185); 
-    border-radius: 15px; 
-    padding: 45px; 
-    margin: auto;
-    margin-top: 25px;
-}
 
 
 .column-project {
@@ -274,9 +276,9 @@ footer a {
 
 
 @media (max-width: 768px) {
-    .project {
+    /* .project {
         width: 100%;
-    }
+    } */
 
     /* .bi {
         width: 24px;
@@ -290,7 +292,7 @@ footer a {
     
     .container-text {
         width: 90%;
-        /* border: 1px solid rgb(185, 185, 185);  */
+        border: 3px solid rgb(15, 15, 185); 
         /* border-radius: 15px;  */
         padding: 25px; 
         /* margin: auto; */
