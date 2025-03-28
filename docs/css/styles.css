@@ -219,6 +219,12 @@ h4 {
 }
 
 
+.h5-title {
+    font-size: 20px;
+    }
+
+
+
 footer {
     height: 65px;
 }
@@ -313,6 +319,10 @@ footer a {
         font-size: 15px;
     }
     
+    .h5-title {
+        font-size: 15px;
+        }
+
     .container-text {
         width: 90%;
         padding: 25px; 
@@ -336,5 +346,7 @@ footer a {
     .button-round {
         max-width: 100px;
     }
+
+
 
 }
