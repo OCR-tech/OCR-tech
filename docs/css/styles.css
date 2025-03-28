@@ -73,6 +73,8 @@ header {
     color: white;
     padding: 5px 0;
     font-family: 'arial black', sans-serif;
+    /* font-size: 1vw; */
+    font-size: 12px;
     text-transform: uppercase;
     text-align: center; 
 }
@@ -80,6 +82,14 @@ header {
 header h1 {
     text-align: center;
 }
+
+.nav {
+    /* border: 3px solid; */
+    /* border-radius:15px;  */
+    padding: 0px; 
+    margin: 0px"
+}
+
 
 nav ul {
     list-style: none;
@@ -97,6 +107,15 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+/* .nav-link {
+    border: 1px solid green;
+    border-radius: 15px; 
+    padding: 0px; 
+    margin: 0px"
+} */
+
 
 a {
     color: blue;
@@ -181,22 +200,6 @@ footer {
 
 
 
-
-
-
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-    .project {
-        width: 45%;
-    }
-}
-
-@media (max-width: 768px) {
-    .project {
-        width: 100%;
-    }
-}
-
 .button {
     font-size: 15px;
     margin: 1px;
@@ -243,4 +246,39 @@ footer a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .project {
+        width: 45%;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
+
+    .bi {
+        width: 24px;
+        height: 24px;
+    }
+
+    header {
+        background: #ffffff;
+        color: white;
+        padding: 5px 0;
+        font-family: 'arial black', sans-serif;
+        /* font-size: 1vw; */
+        font-size: 8.5px;
+        text-transform: uppercase;
+        text-align: center; 
+    }
 }
