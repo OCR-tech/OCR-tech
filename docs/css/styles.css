@@ -15,9 +15,9 @@ body {
 
 
 .container-text {
-    /* width: 65%; */
     width: 65%;
-    border: 1px solid rgb(185, 185, 185); 
+    /* width: auto; */
+    border: 5px solid rgb(185, 185, 185); 
     border-radius: 15px; 
     padding: 45px; 
     margin: auto;
