@@ -288,7 +288,8 @@ footer {
     background: rgb(50, 50, 50);
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    height: 75px;
 }
 
 footer a {
@@ -334,9 +335,9 @@ footer a {
         }
 
 
-    ul, ol {
+    /* ul, ol {
         margin-left: -5px;
-        }
+        } */
 
 
     li {
