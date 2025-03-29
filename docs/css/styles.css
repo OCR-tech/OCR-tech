@@ -334,6 +334,11 @@ footer a {
         }
 
 
+    ul, ol {
+        margin-left: -5px;
+        }
+
+
     li {
         padding-left: 3px;
     }
