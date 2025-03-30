@@ -112,29 +112,53 @@
 
         <div class="container-text">
             <p class="p-project"><b> Projects 1: Predicting the Sale Price of Bulldozers </b></p>
-            <p><b> Objectives: </b></p>
+            <p><u> Objectives: </u></p>
             <ul class="ul">
-              <li> To predict the sale price of bulldozers (large construction machines) </li>
-              <li> ToHow well can we predict the future sale price of a bulldozer, given its characteristics and previous examples of how much similar bulldozers have been sold for? </li>             
+              <li> To predict future sale price of bulldozers (large construction machines), given its characteristics and previous examples </li>                     
+              <li> To build a model to minimize the error of predicted sale price using a random forest regressor </li>             
+              <li> To train a model with time series data with train and validation sets, and test set imported from CSV files in Colab</li>             
+              <li> To evaluate a model using root mean squared log error (RMSLE) metric between the actual and prediced auction prices </li>             
             </ul>
-
-            <p><b> Steps: </b></p>
-            <ul class="ul">
-                <li> Getting data ready: images and labels </li>             
-                <li> Creating our own validation set </li>
-                <li> Preprocessing Images: turning into Tensors </li>
-                <li> Turning our data into batches </li>
-                <li> Visualizing data batches </li>
+            
+            <p><u> Steps: </u></p>
+            <ol class="ul">
+                <li> Data pre-processing </li>
+                <ul class="ul-sub">
+                  <li> Import data and parsing dates </li>
+                  <li> Sort dataframe by saledate </li>
+                  <li> Add datetime parameters for saledate column </li>
+                  <li> Convert string to categories </li>
+                  <li> Fill missing values </li>
+                  <li> Turn categorical variables into numbers </li>
+                  <li> Split data into train/validation sets </li>
+                </ul>
                 <li> Building a model </li>
-                <li> Training a model on subset of data </li>
-                <li> Making predictions on validation data using a trained model </li>
-                <li> Saving and reloading a trained model </li>
-                <li> Training a big dog model with full data </li>
-                <li> Making predictions on test dataset </li>
-                <li> Making predictions on custom images </li>
-            </ul>
+                <ul class="ul-sub">
+                  <li> Build a machine learning model using random forest regressor </li>
+                </ul>
+                <li> Training a model </li>
+                <ul class="ul-sub">
+                  <li> Train a model using trained dataset </li>
+                </ul>
+                <li> Model Evaluation </li>
+                <ul class="ul-sub">
+                  <li> Evaluate a model with coefficient of determination (R<sup>2</sup>) metric </li>
+                </ul>
+                <li> Tuning hyperparameters </li>
+                <ul class="ul-sub">
+                  <!-- <li> Test a model using trained dataset </li> -->
+                  <li> Tune hyerparameters with RandomizedSearchCV </li>
+                  <li> Train a model with the best hyperparamters </li>
+                </ul>
+                <li> Deployment </li>
+                <ul class="ul-sub">
+                  <li> Make predictions on test data </li>
+                  <!-- <li> Preprocessing the data </li> -->
+                  <li> Extract Feature Importance  </li>
+                </ul>
+            </ol>
 
-            <p><b> Outcomes: </b></p>
+            <p><u> Outcomes: </u></p>
             <ul class="ul">
               <li> To identify the breed of a dog given an image of a dog </li>
               <div class="row mt-2">
@@ -156,28 +180,46 @@
             <p><u> Objectives: </u></p>
             <ul class="ul">
               <li> To identify the dog breed given a dog image using a multi-class image classifier (TensorFlow 2 and TensorFlow Hub) </li>                       
-              <li> To build a model using deep learning/transfer learning (Keras sequential model + MobileNetV2) </li>             
+              <li> To build a model using deep learning with transfer learning </li>             
               <li> To train a model with 10000+ images (size of 224x224) of 120 dog breeds for train set and test set in Colab</li>             
               <li> To evaluate a model with prediction probabilities </li>             
             </ul>
 
             <p><u> Steps: </u></p>
-            <ul class="ul">
-                <li> Getting data ready: images and labels </li>             
-                <li> Creating our own validation set </li>
-                <li> Preprocessing Images: turning into Tensors </li>
-                <li> Turning our data into batches </li>
-                <li> Visualizing data batches </li>
-                <li> Building a model </li>
-                <li> Training a model on subset of data </li>
-                <li> Making predictions on validation data using a trained model </li>
-                <li> Saving and reloading a trained model </li>
-                <li> Training a big dog model with full data </li>
-                <li> Making predictions on test dataset </li>
-                <li> Making predictions on custom images </li>
-            </ul>
+            <ol class="ul">
+                <li> Data pre-processing </li>
+                <ul class="ul-sub">
+                  <li> Get data ready: images and labels </li>             
+                  <li> Create our own validation set </li>
+                  <li> Preprocess images: turning into Tensors </li>
+                  <li> Turn our data into batches </li>
+                </ul>
 
-            <p><b> Outcomes: </b></p>
+                <li> Building a model </li>
+                <ul class="ul-sub">
+                  <li> Build a model using Keras sequential model and MobileNetV2  </li>
+                </ul>
+                <li> Training a model </li>
+                <ul class="ul-sub">
+                  <li> Train a model using trained dataset </li>
+                </ul>
+                <li> Model Evaluation </li>
+                <ul class="ul-sub">
+                  <li> Make predictions on validation data using a trained model </li>
+                  <!-- <li> Save and reload a trained model </li> -->
+                </ul>
+                <li> Training a big dog model with full data</li>
+                <!-- <ul class="ul-sub">
+                  <li> Train a big dog model with full data </li>
+                </ul> -->
+                <li> Deployment </li>
+                <ul class="ul-sub">
+                  <li> Make predictions on test dataset </li>
+                  <li> Make predictions on custom images </li>
+                </ul>
+            </ol><br>
+
+            <p><u> Outcomes: </u></p>
             <ul class="ul">
               <li> To identify the breed of a dog given an image of a dog </li>
               <div class="row mt-2">
