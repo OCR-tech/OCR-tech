@@ -85,7 +85,7 @@
         <h2>Course Projects</h2>
 
         <div class="container-text">
-            <p class="p-indent"> This page describes course projects that I have completed,               
+            <p class="p-indent"> This page describes course projects and exercises that I have completed,               
               allowing me to gain hands-on experience and enhance my professional skills in data science, machine learning, and computer vision.  
             </p>
 
@@ -170,7 +170,7 @@
                 <center><img src="../img/project1b.png" class="img-responsive rounded shadow" style="max-width: 75%; max-height: 250px; height: auto;"></center>
               </div>
 
-              <li> Prediction on test data </li>
+              <!-- <li> Prediction on test data </li>
               <div class="row mt-2 mb-4">
                 <center><img src="../img/project1c.png" class="img-responsive rounded shadow" style="max-width: 75%; max-height: 250px; height: auto;"></center>
               </div>
@@ -178,14 +178,14 @@
               <li> Prediction on a custom sample </li>
               <div class="row mt-2 mb-4">
                 <center><img src="../img/project1d.png" class="img-responsive rounded shadow" style="max-width: 75%; max-height: 250px; height: auto;"></center>
-              </div>
+              </div> -->
 
               <li> Comparison of feature importance </li>
               <div class="row mt-2 mb-4">
                 <center><img src="../img/project1e.png" class="img-responsive rounded shadow" style="max-width: 85%; max-height: 450px; height: auto;"></center>
               </div>
 
-            </ul><br><br><br>
+            </ul><br><br>
 
 
 
@@ -236,45 +236,25 @@
 
             <p><u> Outcomes: </u></p>
             <ul class="ul">
-              <li> To identify the breed of a dog given an image of a dog </li>
-              <div class="row mt-2">
-                <center><img src="../img/project_2a.png" class="img-responsive rounded shadow" style="max-width: 50%; min-width: 300px; height: auto;"></center>
+              <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
+              <div class="row mt-2 mb-4">
+                <center><img src="../img/project2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 300px; height: auto;"></center>
               </div>
 
-              <li> To build a multi-class image classifier using TensorFlow 2 and TensorFlow Hub </li>             
-              <div class="row mt-2">
-                <center><img src="../img/project2b.png" class="img-responsive rounded shadow" style="max-width: 85%; min-width: 300px; height: auto;"></center>
-              </div>
+              <!-- <li> Confusion matrix showing actual and predicted values </li>             
+              <div class="row mt-2 mb-4">
+                <center><img src="../img/project2b.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 550px; height: auto;"></center>
+              </div> -->
 
-            </ul><br><br><br>
-
-
+            </ul>
 
 
-
-
-
-
-
-
-            <p class="p-project"><b> Projects 3:  </b></p>
-            <p> 
-              Learn Data Science, Data Analysis, Machine Learning (Artificial Intelligence) and Python with Tensorflow, Pandas & more.
-            </p>
-
-            <p><b> Course Topics: </b></p>
-            <ul class="ul">
-                <li> Python, Numpy, Pandas, MatPlotLib, Seaborn </li>
-                <li> Setting up environment (Conda, MiniConda, and Jupyter Notebooks) and Google Colab </li>             
-                <li> Scikit-Learn and Tensorflow 2.0</li>
-                <li> Data Science Workflows </li>
-                <li> Data Exploration and Visualizations </li>
-                <li> Train/Test and cross validation </li>
-                <li> Model Evaluation and Analysis </li>
-            </ul><br><br><br>
 
         </div>
     </section>
+
+
+
 
 
 
@@ -283,41 +263,43 @@
       <h5><center>COURSE 2</center></h5>
       <h5 class="h5-title"><center>OpenCV Bootcamp</center></h5>
 
-    <div class="container-text">
-        <p><b> Course Descriptions: </b></p>
-        <p> This OpenCV course will teach you how to manipulate images and videos, and detect objects and faces, among other exciting topics.
-        </p>
 
-        <p><b> Course Details: </b></p>
-        <ul class="ul">
-            <li> 3 hours content video </li>
-            <li> 14 modules & Quizzes </li>
-        </ul>
+      <div class="container-text">
+      <p class="p-project"><b> Exercise 1: Deep Learning based Object Detection </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To detect objects using a pre-trained DNN model of Mobilenet based Single Shot Multi-Box (SSD) architecture </li>                                
+      </ul>
 
-        <p><b> Modules: </b> Python, OpenCV, NumPy, Matplotlib</p>
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Download assets and check class labels </li>
+          <li> Perform inferenece using a DNN model </li>       
+          <ul class="ul-sub">
+            <!-- <li> Read TensorFlow model </li>  -->
+            <!-- <li> Detect and display objects </li> -->
+            <li> Load TensorFlow model and input image </li>
+            <li> Detect objects using a forward pass through the network </li>
+            <li> Display the detected objects with bounding boxes and class labels </li>
+          </ul>
+          <!-- <li> Results </li> -->
+      </ol><br>
 
-        <p><b> Course Topics: </b></p>
-        <ul class="ul">
-            <li> OpenCV Installation </li>
-            <li> Getting started with Images </li>
-            <li> Basic Image Manipulation </li>
-            <li> Image Annotation and Enhancement </li>
-            <li> Accessing the Camera </li>
-            <li> Video Writing </li>
-            <li> Image Filtering, Features and Alignment  </li>
-            <li> Panorama and HDR </li>
-            <li> Object Tracking </li>
-            <li> Face Detection </li>
-            <li> TensorFlow Object Detection </li>
-            <li> Pose Estimation using OpenPose </li>
-        </ul>    
+      <p><u> Outcomes: </u></p>
+      <ul class="ul">
+        <li> Detected objects with class labels and bounding boxes </li>
+        <div class="row mt-2 mb-4">
+          <center><img src="../img/exercise1a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 500px; height: auto;"></center>
+        </div>
+      </ul>
 
-        <p><b> Certificate of Completion:</b> 7 February 2025 </p>  
-        <p><b> Issued:</b> OpenCV University </p>
-        <p><b> Website:</b> <a href="https://opencv.org/university/free-opencv-course" target="_blank">https://opencv.org/university/free-opencv-course</a></p>
 
-    </div>
-</section>
+
+          </div>
+      </section>
+
+
+
 
 
 
@@ -327,40 +309,113 @@
       <h5><center>COURSE 3</center></h5>
       <h5 class="h5-title"><center>TensorFlow Keras Bootcamp</center></h5>
 
-    <div class="container-text">
-        <p><b> Course Descriptions: </b></p>
-        <p> Learn how Neural Networks, Multi-Layer Perceptron and Convolutional Neural Networks are used for Image Classification and Segmentation,
-            and train your own CNN model on a custom dataset.
-        </p>
 
-        <p><b> Course Details: </b></p>
+
+      <div class="container-text">
+
+
+        <p class="p-project"><b> Exercise 2: Object Detection using TensorFlow Hub </b></p>
+        <p><u> Objectives: </u></p>
         <ul class="ul">
-            <li> 2 hours content video </li>
-            <li> 10 modules & Quizzes </li>
-            <!-- <li> Quizzes </li> -->
-            <!-- <li> Colab Notebooks</li> -->
-            <!-- <li> Offcial OpenCV Certification</li> -->
+          <li> To detect objects using a pre-trained object detection model of EfficientDet D4 architecture </li>                                
         </ul>
+  
+        <p><u> Steps: </u></p>
+        <ol class="ul">
+            <li> Download Sample Images </li>
+            <ul class="ul-sub">
+              <li> Display Sample Images </li>
+              <li> Define Dictionary and map Class IDs to Class Names </li>
+            </ul>
 
-        <p><b> Modules: </b> Python, OpenCV, NumPy, Pandas, Matplotlib</p>
-
-        <p><b> Course Topics: </b></p>
+            <li> Model Inference using Tensorflow Hub </li>       
+            <ul class="ul-sub">
+              <li> Load the model and inspect the results </li>
+              <li> Post-Process and Display Detections </li>
+            </ul>
+            <li> Formalize the Implementation </li>    
+            <ul class="ul-sub">
+              <li> Perform inference on each image and store the results in a list </li>
+              <li> Loop over each of the images and display annotated images </li>
+            </ul>           
+        </ol><br>
+  
+        <p><u> Outcomes: </u></p>
         <ul class="ul">
-            <li> Getting Started with Neural Networks </li>
-            <li> Fundamentals of Training a Neural Network </li>
-            <li> Modeling Linear Regression </li>
-            <li> MNIST Digit Classification using MLP </li>
-            <li> CNN Fundamentals </li>
-            <li> CIFAR-10 Classification using CNN </li>
-            <li> Image Classification using Pre-Trained ImageNet Models </li>
-            <li> Transfer Learning and Fine-tuning </li>
-            <li> Introduction to Semantic Segmentation </li>
-            <li> Introduction to Object Detection </li>
-        </ul>    
+          <li> Detected objects with class labels and confidence </li>
+          <div class="row mt-2 mb-4">
+            <center><img src="../img/exercise2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 500px; height: auto;"></center>
+          </div>
+        </ul><br><br>
 
-        <p><b> Certificate of Completion:</b> 4 February 2025 </p>  
-        <p><b> Issued:</b> OpenCV University </p>
-        <p><b> Website:</b> <a href="https://opencv.org/university/free-tensorflow-keras-course" target="_blank">Lihttps://opencv.org/university/free-tensorflow-keras-coursenk</a></p>
+
+
+
+
+
+      <hr>
+      <p class="p-project"><b> Exercise 3: Traffic Sign Recognition (TSR) using Transfer Learning and Fine-tuning </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To identify the dog breed given a dog image using a multi-class image classifier  </li>                       
+        <li> To build a model using deep learning and transfer learning with TensorFlow and TensorFlow Hub </li>             
+        <li> To train a model with 10000+ images of 120 dog breeds (size of 224x224) in Colab</li>             
+        <li> To evaluate a model with prediction probabilities </li>             
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Data pre-processing </li>
+          <ul class="ul-sub">
+            <li> Get data ready: images and labels </li>             
+            <li> Create our own validation set </li>
+            <li> Preprocess images: turning into Tensors </li>
+            <li> Turn our data into batches </li>
+          </ul>
+
+          <li> Building a model </li>
+          <ul class="ul-sub">
+            <li> Build a model using Keras sequential model and MobileNetV2  </li>
+          </ul>
+          <li> Training a model </li>
+          <ul class="ul-sub">
+            <li> Train a model using trained dataset </li>
+          </ul>
+          <li> Model Evaluation </li>
+          <ul class="ul-sub">
+            <li> Make predictions on validation data using a trained model </li>
+            <!-- <li> Save and reload a trained model </li> -->
+          </ul>         
+          <li> Training a big dog model with full data</li>
+          <!-- <ul class="ul-sub">
+            <li> Train a big dog model with full data </li>
+          </ul> -->
+          <li> Deployment </li>
+          <ul class="ul-sub">
+            <li> Make predictions on test dataset </li>
+            <li> Make predictions on custom images </li>
+          </ul>
+      </ol><br>
+
+      <p><u> Outcomes: </u></p>
+      <ul class="ul">
+        <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
+        <div class="row mt-2 mb-4">
+          <center><img src="../img/project2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 300px; height: auto;"></center>
+        </div>
+
+
+      </ul><br><br><br>
+
+
+
+  
+
+
+
+
+
+
 
     </div>
 </section>
