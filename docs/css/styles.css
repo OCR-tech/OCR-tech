@@ -57,6 +57,26 @@ body {
 }
 
 
+
+.container-align {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.left {
+    text-align: left;    
+
+}
+
+.right {
+    text-align: right;    
+
+}
+
+
+
+
 #project {
     background-color: rgb(75,75,75); 
 }
@@ -269,6 +289,7 @@ footer {
 li {
     padding-left: 10px;
 }
+
 
 
 
