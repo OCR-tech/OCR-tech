@@ -106,6 +106,7 @@ body {
 } */
 
 
+
 .column-project {
     width: 65%;
     border: 2px solid rgb(215,215,215); 
@@ -273,7 +274,7 @@ li {
 
 
 .img-course {
-max-width: 80%;
+max-width: 85%;
 height: auto;
 margin: 15px;
 }
@@ -413,17 +414,27 @@ footer a {
 
     .container-course {
         width: 90%;
-        padding: 25px; 
+        padding: 15px; 
     }
 
 
 
-    .img-course {
-        margin-left: -25px;
+    .column-project {
+        width: 90%;
+        /* border: 2px solid rgb(215,215,215);  */
+        /* border-radius: 25px;  */
+        /* margin: auto; */
+        /* margin-bottom: 35px; */
+    }
+
+
+
+    /* .img-course {
+        margin-left: 0px;
         width: 100%;
         height: auto;
-        /* margin: 15px; */
-      }
+        margin: 15px;
+      } */
 
 
 

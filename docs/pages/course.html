@@ -95,7 +95,7 @@
             <ul class="ul">
               <li> To predict the future sale price of bulldozers, given its characteristics and previous samples </li>                     
               <li> To build and train a model using a random forest regressor with time series data in Colab </li>                     
-              <li> To evaluate a model with root mean squared log error (RMSLE) metric </li>             
+              <!-- <li> To evaluate a model with root mean squared log error (RMSLE) metric </li>              -->
             </ul>
             
             <p><u> Steps: </u></p>
@@ -120,7 +120,7 @@
                 </ul>
                 <li> Model evaluation </li>
                 <ul class="ul-sub">
-                  <li> Evaluate a model with RMSLE metric </li>
+                  <li> Evaluate a model with root mean squared log error (RMSLE) metric </li>
                 </ul>
                 <li> Tuning hyperparameters </li>
                 <ul class="ul-sub">
@@ -134,19 +134,12 @@
                 </ul>
             </ol>
 
-            <p><u> Outcomes: </u></p>
-            <ul class="ul">
-              <li> Comparison of mean RSMLE score among three models </li>
+            <p><u> Outcomes: </u></p>           
               <div class="row mt-3 mb-5">
-                <center><img src="../img/project1a.png" class="img-course rounded shadow"></center>
-              </div>
-
-              <li> Comparison of feature importance </li>
-              <div class="row mt-3 mb-5">
-                <center><img src="../img/project1b.png" class="img-course rounded shadow"></center>
-              </div>
-
-            </ul><br><hr>
+                <center><b>Comparison of feature importance</b> 
+                  <img src="../img/project1a.png" class="img-course rounded shadow">
+                </center>
+              </div><br><hr>
 
 
 
@@ -192,13 +185,11 @@
             </ol>
 
             <p><u> Outcomes: </u></p>
-            <ul class="ul">
-              <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
-              <div class="row mt-3 mb-5">
-                <center><img src="../img/project2a.png" class="img-course rounded shadow"></center>
-              </div>
-            </ul>
-
+            <div class="row mt-3 mb-5">
+              <center><b>Prediction the dog breed with prediction probabilities</b> 
+                <img src="../img/project2a.png" class="img-course rounded shadow">
+              </center>
+            </div>
 
 
         </div>
@@ -246,12 +237,12 @@
       </ol>
 
       <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Predicted objects with class labels and confidences </li>
-        <div class="row mt-3 mb-5">
-          <center><img src="../img/module1a.png" class="img-course rounded shadow"></center>
-        </div>
-      </ul><br><hr>     
+      <div class="row mt-3 mb-5">
+        <center><b>Predicted objects with class labels and confidences</b> 
+          <img src="../img/module1a.png" class="img-course rounded shadow">
+        </center>
+      </div><br><hr>  
+
 
 
 
@@ -279,18 +270,17 @@
       </ol>
 
       <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Hand-written digits for training datasets </li>
-        <div class="row mt-3 mb-5">
-          <center><img src="../img/module2a.png" class="img-course rounded shadow"></center>
-        </div>
+      <div class="row mt-3 mb-5">
+        <center><b>Hand-written digits for training datasets</b> 
+          <img src="../img/module2a.png" class="img-course rounded shadow">
+        </center>
+      </div>
+      <div class="row mt-3 mb-5">
+        <center><b>Confusion matrix showing ground truth and predicted labels</b> 
+          <img src="../img/module2b.png" class="img-course rounded shadow">
+        </center>
+      </div><br><hr>  
 
-        <li> Confusion matrix showing the instance numbers between ground truth label and predicted label </li>
-        <div class="row mt-3 mb-5">
-          <center><img src="../img/module2b.png" class="img-course rounded shadow"></center>
-        </div>
-
-      </ul><br><hr>   
 
 
 
@@ -300,64 +290,41 @@
       <p class="p-project"><b> Module 3: Traffic Sign Recognition (TSR) using Transfer Learning and Fine-tuning </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
-        <li> To classify images for traffic signs recognition using   </li>                                 
+        <li> To classify traffic sign images for traffic signs recognition using fine-tuning pre-trained model with VGG-16 architecture and  </li>                                 
       </ul>
 
       <p><u> Steps: </u></p>
       <ol class="ul">
           <li> Data pre-processing </li>
           <ul class="ul-sub">
-            <li> Download and extract dataset </li>             
-            <li> Display sample images </li>             
+            <li> Download and extract dataset </li>                    
             <li> Create train and validation datasets </li>
             <li> Create and pre-process test dataset </li>
           </ul>
-          <li> Model inference using VGG-16 (for Fine-Tuning) </li>
+          <li> Model inference using VGG-16 for Fine-Tuning </li>
           <ul class="ul-sub">
-            <li> Load VGG-16 convolutional base  </li>
+            <li> Load VGG-16 convolutional base and and instantiate the weights  </li>
             <li> Freeze the initial layers in convolutional base  </li>
             <li> Add classifier to complete the model  </li>
             <li> Compile and train the model  </li>
-            <li> Build a model using Keras sequential model and MobileNetV2  </li>
-            <li> Build a model using Keras sequential model and MobileNetV2  </li>
           </ul>
           <li> Model evaluation </li>
           <ul class="ul-sub">
-            <li> Make predictions on validation dataset  </li>
-            <li> Make predictions on test dataset </li>
+            <li> Make predictions on validation dataset </li>
           </ul>         
-          <li> Training a big dog model with full data</li>
-
-
-
-          6 Modeling 
-          6.1 Loading the VGG-16 Convolutional Base
-          6.2 Freeze the Initial Layers in the Convolutional Base
-          6.3 Add the Classifier to Complete the Model
-          6.4 Compile and Train the Model
-          6.4 Plot the Training Results
-          6.4.1 Comparison: Fine-Tuning vs. Training from Scratch
-
-
-
-
-
-
-
           <li> Deployment </li>
           <ul class="ul-sub">
             <li> Make predictions on test dataset </li>
-            <li> Make predictions on custom images </li>
+            <li> Display the results </li>
           </ul>
       </ol><br>
 
       <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
-        <div class="row mt-3 mb-5">
-          <center><img src="../img/module3a.png" class="img-course rounded shadow"></center>
-        </div>
-      </ul><br><hr>
+      <div class="row mt-3 mb-5">
+        <center><b>Prediction the traffic signs on test dataset</b> 
+          <img src="../img/module3a.png" class="img-course rounded shadow">
+        </center>
+      </div><br><hr>
 
 
 
@@ -382,12 +349,10 @@
       </ol>
 
       <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Detected objects with class labels and bounding boxes </li>
-        <div class="row mt-3 mb-5">
-          <center><img src="../img/module4a.png" class="img-course rounded shadow"></center>
-        </div>
-      </ul><br><hr>
+      <div class="row mt-3 mb-5">
+        <center><b>Detected objects with class labels and bounding boxes</b> 
+          <img src="../img/module4a.png" class="img-course rounded shadow">
+      </div></center><br><hr>
 
 
 
@@ -422,18 +387,17 @@
       </ol>
 
       <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Detected objects with class labels and confidences </li>
-        <div class="row mt-3 mb-4">
-          <center><img src="../img/module5a.png" class="img-course rounded shadow"></center>
-        </div>
-      </ul>
+      <div class="row mt-3 mb-5">
+        <center><b>Detected objects with class labels and confidences</b> 
+          <img src="../img/module5a.png" class="img-course rounded shadow">
+      </div></center>
 
 
 
 
-          </div>
-      </section>
+      
+    </div>
+</section>
 
 
 
