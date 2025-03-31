@@ -21,8 +21,6 @@
 
 <body>
 
-
-
     <!-- Header Section -->
     <header>
         <div class="px-3 py-2 border-bottom" style="background-color:rgb(50,50,50);">
@@ -91,13 +89,12 @@
         <h5><center>PROJECTS</center></h5>
 
 
-        <div class="container-text">
+        <div class="container-course">
             <p class="p-project"><b> Project 1: Predicting the Sale Price of Bulldozers </b></p>
             <p><u> Objectives: </u></p>
             <ul class="ul">
               <li> To predict the future sale price of bulldozers, given its characteristics and previous samples </li>                     
-              <li> To build a model using a random forest regressor in Colab </li>             
-              <li> To train a model with time series data imported from CSV files</li>             
+              <li> To build and train a model using a random forest regressor with time series data in Colab </li>                     
               <li> To evaluate a model with root mean squared log error (RMSLE) metric </li>             
             </ul>
             
@@ -140,15 +137,15 @@
             <p><u> Outcomes: </u></p>
             <ul class="ul">
               <li> Comparison of mean RSMLE score among three models </li>
-              <div class="row mt-2 mb-4">
-                <center><img src="../img/project1a.png" class="img-responsive rounded shadow" style="max-width: 75%; max-height: 250px; height: auto;"></center>
+              <div class="row mt-3 mb-5">
+                <center><img src="../img/project1a.png" class="img-course rounded shadow"></center>
               </div>
               <li> Comparison of feature importance </li>
-              <div class="row mt-2 mb-4">
-                <center><img src="../img/project1b.png" class="img-responsive rounded shadow" style="max-width: 85%; max-height: 450px; height: auto;"></center>
+              <div class="row mt-3 mb-5">
+                <center><img src="../img/project1b.png" class="img-course rounded shadow"></center>
               </div>
 
-            </ul><br><br><hr>
+            </ul><br><hr>
 
 
 
@@ -196,8 +193,8 @@
             <p><u> Outcomes: </u></p>
             <ul class="ul">
               <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
-              <div class="row mt-2 mb-4">
-                <center><img src="../img/project2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 300px; height: auto;"></center>
+              <div class="row mt-3 mb-5">
+                <center><img src="../img/project2a.png" class="img-course rounded shadow"></center>
               </div>
             </ul>
 
@@ -220,10 +217,153 @@
     <section id="modules"><br><br>
       <h5><center>MODULES</center></h5>
 
+      <div class="container-course">
 
 
-      <div class="container-text">
-      <p class="p-project"><b> Module 1: Deep Learning based Object Detection </b></p>
+      <p class="p-project"><b> Module 1: Pre-Trained ImageNet Models in TensorFlow and Keras </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify images using a pre-trained ImageNet model </li>                                
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Data pre-processing </li>
+          <ul class="ul-sub">
+            <li> Download assests </li>
+            <li> Read and display sample images </li>
+          </ul>
+
+          <li> Setup pre-trained model </li>       
+          <ul class="ul-sub">
+            <li> Load a pre-trained model </li>
+            <li> Preprocess the input images and add batch dimension </li>
+            <li> Make model prediction </li> 
+            <li> Decode the predictions to find the class name and confidence scores </li> 
+          </ul>
+          <li> Display the results </li>    
+      </ol>
+
+      <p><u> Outcomes: </u></p>
+      <ul class="ul">
+        <li> Predicted objects with class labels and confidences </li>
+        <div class="row mt-3 mb-5">
+          <center><img src="../img/module1a.png" class="img-course rounded shadow"></center>
+        </div>
+      </ul><br><hr>     
+
+
+
+
+
+
+      
+      <p class="p-project"><b> Module 2: Image Classification using Feedforward Networks in Keras </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify hand-written digits using feed-forward multilayer network architecture for multinomial classification </li>                                
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Load and split the MNIST dataset </li>
+          <li> Pre-process dataset </li>
+          <ul class="ul-sub">
+            <li> Input feature transformation and normalization </li>
+            <li> One-Hot label encoding </li>
+          </ul>
+          <li> Build and train a model using DNN architecture </li>
+          <li> Evaluate a model with loss and accuracy matrics </li>  
+          <li> Predict the test dataset and display the results </li>  
+      </ol>
+
+      <p><u> Outcomes: </u></p>
+      <ul class="ul">
+        <li> Hand-written digits for training datasets </li>
+        <div class="row mt-3 mb-5">
+          <center><img src="../img/module2a.png" class="img-course rounded shadow"></center>
+        </div>
+
+        <li> Confusion matrix showing the instance numbers between ground truth label and predicted label </li>
+        <div class="row mt-3 mb-5">
+          <center><img src="../img/module2b.png" class="img-course rounded shadow"></center>
+        </div>
+
+      </ul><br><hr>   
+
+
+
+
+
+
+      <p class="p-project"><b> Module 3: Traffic Sign Recognition (TSR) using Transfer Learning and Fine-tuning </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify images for traffic signs recognition using   </li>                                 
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Data pre-processing </li>
+          <ul class="ul-sub">
+            <li> Download and extract dataset </li>             
+            <li> Display sample images </li>             
+            <li> Create train and validation datasets </li>
+            <li> Create and pre-process test dataset </li>
+          </ul>
+          <li> Model inference using VGG-16 (for Fine-Tuning) </li>
+          <ul class="ul-sub">
+            <li> Load VGG-16 convolutional base  </li>
+            <li> Freeze the initial layers in convolutional base  </li>
+            <li> Add classifier to complete the model  </li>
+            <li> Compile and train the model  </li>
+            <li> Build a model using Keras sequential model and MobileNetV2  </li>
+            <li> Build a model using Keras sequential model and MobileNetV2  </li>
+          </ul>
+          <li> Model evaluation </li>
+          <ul class="ul-sub">
+            <li> Make predictions on validation dataset  </li>
+            <li> Make predictions on test dataset </li>
+          </ul>         
+          <li> Training a big dog model with full data</li>
+
+
+
+          6 Modeling 
+          6.1 Loading the VGG-16 Convolutional Base
+          6.2 Freeze the Initial Layers in the Convolutional Base
+          6.3 Add the Classifier to Complete the Model
+          6.4 Compile and Train the Model
+          6.4 Plot the Training Results
+          6.4.1 Comparison: Fine-Tuning vs. Training from Scratch
+
+
+
+
+
+
+
+          <li> Deployment </li>
+          <ul class="ul-sub">
+            <li> Make predictions on test dataset </li>
+            <li> Make predictions on custom images </li>
+          </ul>
+      </ol><br>
+
+      <p><u> Outcomes: </u></p>
+      <ul class="ul">
+        <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
+        <div class="row mt-3 mb-5">
+          <center><img src="../img/module3a.png" class="img-course rounded shadow"></center>
+        </div>
+      </ul><br><hr>
+
+
+
+
+
+
+      <p class="p-project"><b> Module 4: Deep Learning based Object Detection </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
         <li> To detect objects using a pre-trained DNN model of Mobilenet based Single Shot Multi-Box (SSD) architecture </li>                                
@@ -232,7 +372,7 @@
       <p><u> Steps: </u></p>
       <ol class="ul">
           <li> Download assets and check class labels </li>
-          <li> Perform inferenece using a DNN model </li>       
+          <li> Model inference </li>       
           <ul class="ul-sub">
             <li> Load a model and input image </li>
             <li> Detect objects using a forward pass through the network </li>
@@ -243,18 +383,17 @@
       <p><u> Outcomes: </u></p>
       <ul class="ul">
         <li> Detected objects with class labels and bounding boxes </li>
-        <div class="row mt-2 mb-4">
-          <center><img src="../img/module1a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 500px; height: auto;"></center>
+        <div class="row mt-3 mb-5">
+          <center><img src="../img/module4a.png" class="img-course rounded shadow"></center>
         </div>
-      </ul><br><br>
+      </ul><br><hr>
 
 
 
 
 
-
-      <hr>
-      <p class="p-project"><b> Module 2: Object Detection using TensorFlow Hub </b></p>
+      
+      <p class="p-project"><b> Module 5: Object Detection using TensorFlow Hub </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
         <li> To detect objects using a pre-trained object detection model of EfficientDet D4 architecture </li>                                
@@ -270,8 +409,9 @@
 
           <li> Model Inference using Tensorflow Hub </li>       
           <ul class="ul-sub">
-            <li> Load a model and inspect the results </li>
-            <li> Post-process and display detections </li>
+            <li> Load a pre-trained model </li>
+            <li> Post-process with different detection thresholds </li>
+            <li> Display detected objects </li>
           </ul>
           <li> Formalize the Implementation </li>    
           <ul class="ul-sub">
@@ -282,18 +422,11 @@
 
       <p><u> Outcomes: </u></p>
       <ul class="ul">
-        <li> Detected objects with class labels and confidence </li>
-        <div class="row mt-2 mb-4">
-          <center><img src="../img/module2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 500px; height: auto;"></center>
+        <li> Detected objects with class labels and confidences </li>
+        <div class="row mt-3 mb-4">
+          <center><img src="../img/module5a.png" class="img-course rounded shadow"></center>
         </div>
-      </ul><br><br>
-
-
-
-
-
-
-
+      </ul>
 
 
 
@@ -306,94 +439,13 @@
 
 
 
-
-
-
-
-      <hr>
-      <p class="p-project"><b> Exercise 3: Traffic Sign Recognition (TSR) using Transfer Learning and Fine-tuning </b></p>
-      <p><u> Objectives: </u></p>
-      <ul class="ul">
-        <li> To identify the dog breed given a dog image using a multi-class image classifier  </li>                       
-        <li> To build a model using deep learning and transfer learning with TensorFlow and TensorFlow Hub </li>             
-        <li> To train a model with 10000+ images of 120 dog breeds (size of 224x224) in Colab</li>             
-        <li> To evaluate a model with prediction probabilities </li>             
-      </ul>
-
-      <p><u> Steps: </u></p>
-      <ol class="ul">
-          <li> Data pre-processing </li>
-          <ul class="ul-sub">
-            <li> Get data ready: images and labels </li>             
-            <li> Create our own validation set </li>
-            <li> Preprocess images: turning into Tensors </li>
-            <li> Turn our data into batches </li>
-          </ul>
-
-          <li> Building a model </li>
-          <ul class="ul-sub">
-            <li> Build a model using Keras sequential model and MobileNetV2  </li>
-          </ul>
-          <li> Training a model </li>
-          <ul class="ul-sub">
-            <li> Train a model using trained dataset </li>
-          </ul>
-          <li> Model Evaluation </li>
-          <ul class="ul-sub">
-            <li> Make predictions on validation data using a trained model </li>
-            <!-- <li> Save and reload a trained model </li> -->
-          </ul>         
-          <li> Training a big dog model with full data</li>
-          <!-- <ul class="ul-sub">
-            <li> Train a big dog model with full data </li>
-          </ul> -->
-          <li> Deployment </li>
-          <ul class="ul-sub">
-            <li> Make predictions on test dataset </li>
-            <li> Make predictions on custom images </li>
-          </ul>
-      </ol><br>
-
-      <p><u> Outcomes: </u></p>
-      <ul class="ul">
-        <li> Prediction the dog breed (predicted and truth label with top 10 prediction probabilities) </li>
-        <div class="row mt-2 mb-4">
-          <center><img src="../img/project2a.png" class="img-responsive rounded shadow" style="max-width: 80%; max-height: 300px; height: auto;"></center>
-        </div>
-
-
-      </ul><br><br><br>
-
-
-
   
 
 
 
-
-
-
-
-    </div>
-</section>
-
-
-
-
-
 <section id="button">
-
-  <center><div class="col-md-5 mb-4">
-    <center><a href="course1.html"> 
-        <button class="button-round" type="button" style="width: 50%; min-width: 150px;">Courses Details</button> 
-    </a></center> 
-  </div></center>
-
   <center><button class="btn btn-primary mt-4 mb-3" onclick="window.scrollTo(0, 0)" style="width: 125px; height: 40px;">Top</button></center>
 </section id="button">
-
-
-
 
     
 
@@ -401,40 +453,26 @@
     <footer>
 
       <div class="container">
-          <!-- <a class="a-visitor" href="#hashtrap"></a> -->
-          <!-- <a class="a-visitor" href="#hashtrap" style="display: block; background-color: transparent; width: 50px; height: 10px;"></a> -->
-          <!-- <a class="a-visitor" href="#hashtrap" style="display: block; background-color: #712cf9; width: 50px; height: 10px;"></a> -->
 
           <center>
-              <!-- <div class="container d-flex justify-content-between align-items-center"> -->
-                  <div>
-
-                      <a href="../index.html#home" class="text-white mx-2">Home</a>
-                      <span>|</span>
-                      <a href="../index.html#about" class="text-white mx-2">About</a>
-                      <span>|</span>
-                      <a href="../index.html#project" class="text-white mx-2">Projects</a>
-                      <span>|</span>
-                      <a href="../index.html#contact" class="text-white mx-2">Contact</a>
-                  </div>
-              <!-- </div> -->
+            <div>
+              <a href="../index.html#home" class="text-white mx-2">Home</a>
+              <span>|</span>
+              <a href="../index.html#about" class="text-white mx-2">About</a>
+              <span>|</span>
+              <a href="../index.html#project" class="text-white mx-2">Projects</a>
+              <span>|</span>
+              <a href="../index.html#contact" class="text-white mx-2">Contact</a>
+            </div>
           </center>
-
           <p>&copy; 2025 OCR-tech</p>
-          <!-- <p><a href="https://github.com/OCR-tech" target="_blank">GitHub</a></p> -->
 
       </div>
   </footer>
 
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
-
 </body>
-
-
 
 </html>

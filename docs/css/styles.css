@@ -28,6 +28,22 @@ body {
 
 
 
+
+.container-course {
+    width: 50%;
+    /* width: auto; */
+    border: 1px solid rgb(185, 185, 185); 
+    border-radius: 15px; 
+    padding: 45px; 
+    margin: auto;
+    margin-top: 25px;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+}
+
+
+
+
 .container-button {
     /* width: 80%; */
     /* margin: auto; */
@@ -256,6 +272,14 @@ li {
 
 
 
+.img-course {
+max-width: 80%;
+height: auto;
+margin: 15px;
+}
+
+
+
 .button {
     font-size: 15px;
     margin: 1px;
@@ -379,15 +403,28 @@ footer a {
     }
 
 
-
     
     .container-text {
         width: 90%;
         padding: 25px; 
-        /* margin: auto; */
-        /* margin-top: 25px; */
-        /* font-size: 0.95em; */
     }
+
+
+
+    .container-course {
+        width: 90%;
+        padding: 25px; 
+    }
+
+
+
+    .img-course {
+        margin-left: -25px;
+        width: 100%;
+        height: auto;
+        /* margin: 15px; */
+      }
+
 
 
     header {
