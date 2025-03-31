@@ -279,6 +279,9 @@ footer {
 }
 
 
+
+
+
 .li-header {
     font-size: 1em;
     /* padding-left: 10px; */
@@ -287,6 +290,7 @@ footer {
 
 
 li {
+    /* padding-top: 10px; */
     padding-left: 10px;
 }
 
