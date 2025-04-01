@@ -21,9 +21,10 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 - Machine Learning: Scikit-learn, TensorFlow
 - Libraries: OpenCV, Tesseract
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
-- Database: MySQL, MongoDB
-- Tools: VSCode, Jypyter, Docker, Git, GitHub
-<!-- - Version Control: Git, GitHub -->
+<!-- - Database: MySQL, MongoDB -->
+<!-- - Tools: VSCode, Jypyter, Docker, Git, GitHub -->
+- Tools: VSCode, Jypyter, Git, GitHub
+
 
 <!-- **Languages**: Python, JavaScript, HTML, CSS, C, C++ <br>
 **Libraries**: Numpy, Pandas, Matplotlib, Seaborn, OpenCV, Scikit-learn, TensorFlow <br>
