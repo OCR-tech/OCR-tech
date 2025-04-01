@@ -1,5 +1,5 @@
 # Welcome 👋
-This is my GitHub profile. I'm passionate about machine learning, artificial intelligence, computer vision, and optical character recognition (OCR) technology and their applications.
+This is my portfolio profile. I'm passionate about machine learning, artificial intelligence, computer vision, and optical character recognition (OCR) technology and their applications.
 
 
 ## 🚀 About Me
@@ -9,24 +9,40 @@ This is my GitHub profile. I'm passionate about machine learning, artificial int
 - I'm open to collaborating on interesting projects and open-source communities.
 
 
-## 🔧 Technologies & Tools
+## 🔧 Skills & Tools
+
+<!-- Specialities & Technologies:
+ - Data Science and Artificail Intelligence
+ - Machine Learning/ Deep Learning
+ - Computer Vision and Image Processing
+ - Optical character recognition (OCR) -->
+
 - Programming Languages: Python
-- Machine Learning: TensorFlow, Scikit-learn
-- OCR Tools: OpenCV, Tesseract
-- Version Control: Git, GitHub
-- Web Development: HTML, CSS, Javascript
+- Machine Learning: Scikit-learn, TensorFlow
+- Libraries: OpenCV, Tesseract
+- Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
+- Database: SQLite, MongoDB
+- Tools: VSCode, Pycharm, Jypyter, Docker, Git, GitHub
+<!-- - Version Control: Git, GitHub -->
+
+<!-- **Languages**: Python, JavaScript, HTML, CSS, C, C++ <br>
+**Libraries**: Numpy, Pandas, Matplotlib, Seaborn, OpenCV, Scikit-learn, TensorFlow <br>
+**OCR Tools**: Tesseract<br>
+**Frameworks**: Node.js, Bootstrap, JQuery <br>
+**Database**: SQLite, MongoDB <br>
+**Tools**: VSCode, Pycharm, Docker, Jypyter, Git, GitHub <br>
+**Version Control**: Git, GitHub <br> -->
+
+&emsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="icon" width="20" height="20"/>
 
 
-
-<p align="left">
-&emsp; <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="20" height="20" alt="Python" /></a>
-<a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="20" height="20" alt="TensorFlow" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="20" height="20" alt="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="20" height="20" alt="CSS3" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="20" height="20" alt="JavaScript" /></a>
-<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="20" height="20" alt="VS Code" /></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="20" height="20" alt="Git" /></a>                   
-</p>
 
 ## 🌟 Projects
 - **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
