@@ -29,7 +29,7 @@ body {
 
 
 
-.container-course {
+.container-project {
     width: 50%;
     /* width: auto; */
     border: 1px solid rgb(185, 185, 185); 
@@ -308,7 +308,7 @@ li {
 
 
 
-.img-course {
+.img-project {
 max-width: 85%;
 height: auto;
 margin: 15px;
@@ -354,6 +354,7 @@ margin: 15px;
 
 
 
+
 /* Buttons */
 .btn-button {
     display: flex; 
@@ -373,7 +374,6 @@ margin: 15px;
     background-color: rgb(0, 95, 215);
     color: white;
   }
-
 
 
 
@@ -400,6 +400,7 @@ footer a {
         width: 45%;
     }
 } */
+
 
 
 
@@ -454,7 +455,7 @@ footer a {
 
 
 
-    .container-course {
+    .container-project {
         width: 90%;
         padding: 25px; 
     }
@@ -471,7 +472,7 @@ footer a {
 
 
 
-    /* .img-course {
+    /* .img-project {
         margin-left: 0px;
         width: 100%;
         height: auto;
@@ -495,9 +496,9 @@ footer a {
         max-width: 100px;
     }
 
-
-
 }
+
+
 
 
 
