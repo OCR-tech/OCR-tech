@@ -49,6 +49,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 ## 🌟 Projects
 - **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 - **AdaptDL**: An advanced real-time object detection based on voice speech command using deep learning.
+- **InnoTSR**: An innovative traffic sign recognition system using deep learning integrating built-in voice command alerts.
 
 <!-- - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 - **[AdaptDL](https://github.com/OCR-tech/AdaptDL)**: An advanced real-time object detection based on voice speech command using deep learning. -->
