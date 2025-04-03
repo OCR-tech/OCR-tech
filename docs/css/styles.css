@@ -78,7 +78,7 @@ body {
 
 
 #project {
-    background-color: rgb(75,75,75); 
+    background-color: rgb(50,50,50); 
 }
 
 
@@ -93,7 +93,7 @@ body {
     /* border: 1px solid rgb(285,285,285);  */
     border-radius: 15px;     
     /* margin-top: 35px; */
-    background-color: rgb(75,75,75); 
+    background-color: rgb(50,50,50); 
 }
 
 .project {

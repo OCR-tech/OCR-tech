@@ -57,6 +57,6 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 - <a href="https://github.com/OCR-tech/AdaptDL"><b>AdaptDL</b></a>: An advanced real-time object detection based on voice speech command using deep learning. -->
 
 
-Feel free to check out my repositories and contributions. I'm always excited to connect with fellow developers and enthusiasts. Let's build something amazing together!
+Feel free to check out my repositories and contributions. Let's build something amazing together!
 
 😊 Happy Coding!
