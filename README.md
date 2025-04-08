@@ -18,8 +18,8 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
  - Optical character recognition (OCR) -->
 
 - Programming Languages: Python
-- Machine Learning: Scikit-learn, TensorFlow
-- Libraries: OpenCV, Tesseract
+- Machine Learning: Scikit-Learn, TensorFlow
+- Libraries: OpenCV, Tesseract OCR
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
 - Tools: VSCode, Jypyter, Git, GitHub
 <!-- - Database: MySQL, MongoDB -->
