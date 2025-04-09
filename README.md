@@ -4,7 +4,6 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 
 ## 🚀 About Me
 - I specialize in developing deep learning-based object detection and OCR algorithms.
-- I have a keen interest in machine learning and artificial intelligence.
 - I love exploring new technologies and staying updated with the tech world.
 - I'm open to collaborating on interesting projects and open-source communities.
 
@@ -23,7 +22,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
 - Tools: VSCode, Jypyter, Git, GitHub
 <!-- - Database: MySQL, MongoDB -->
-<!-- - Tools: VSCode, Jypyter, Docker, Git, GitHub -->
+<!-- - Tools: Docker -->
 
 
 
@@ -47,9 +46,9 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 
 
 ## 🌟 Projects
-- **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
-- **AdaptDL**: An advanced real-time object detection based on voice speech command using deep learning.
-- **InnoTSR**: An innovative traffic sign recognition system using deep learning integrating built-in voice command alerts.
+- **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor and transparent background, suitable for side-by-side paragraphs and code editing.
+- **AdaptDL**: An advanced real-time object detection system using deep learning and voice commands.
+- **InnoTSR**: An innovative traffic sign recognition system using deep learning and voice feedback for personalized alert systems.
 
 <!-- - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 - **[AdaptDL](https://github.com/OCR-tech/AdaptDL)**: An advanced real-time object detection based on voice speech command using deep learning. -->
