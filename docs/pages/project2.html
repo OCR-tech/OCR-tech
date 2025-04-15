@@ -68,19 +68,23 @@
 
 
     <!-- Home Section --> 
-    <section id="course">
+    <!-- <section id="course">
       <h1 class="text-center mt-5">Under Construction</h1>
-    </section>
+    </section> -->
+
+
+
+
 
 
 
     <!-- Home Section -->
-    <!-- <section id="project1">
+    <section id="project1">
         <h2>ML Projects</h2>
 
         <div class="container-project">
             <p class="p-indent"> 
-              This page summarises deep learning projects that I have completed, which allowed me to gain 
+              This page summarises machine learning projects and modules that I have completed, which allowed me to gain 
               hands-on experience and skills in machine learning and deep learning. 
             </p><br>
 
@@ -89,10 +93,18 @@
               <li> Project 1:&nbsp; Food Vision: Transfer Learning and Fine Tuning </li>            
               <li> Project 2:&nbsp; SkimLit: Natural Language Procesisng </li>                                         
               <li> Project 3:&nbsp; BitPredict: Time-Series Forecasting with TensorFlow </li>                                         
+            </ul><br>
+
+            <p><b><u> Modules: </u></b></p>
+            <ul class="ul">
+              <li> Module 1:&nbsp; Pre-Trained ImageNet Models in TensorFlow and Keras </li>                     
+              <li> Module 2:&nbsp; Image Classification using Feedforward Networks in Keras </li>                     
+              <li> Module 3:&nbsp; Traffic Sign Recognition using Transfer Learning and Fine-tuning </li>                                                  
             </ul>
 
+
           </div><br>
-    </section> -->
+    </section>
 
 
 
@@ -284,6 +296,166 @@
 
       </div>
   </section>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Projects3 Section -->
+    <section id="projects3">
+      <h3><b><center>Module 1</center></b></h3>
+
+      <div class="container-project">
+      <p class="p-project"><b> Pre-Trained ImageNet Models in TensorFlow and Keras </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify images using a pre-trained ImageNet model </li>                                
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Data pre-processing </li>
+          <ul class="ul-sub">
+            <li> Download assests </li>
+            <li> Read and display sample images </li>
+          </ul>
+
+          <li> Setup pre-trained model </li>       
+          <ul class="ul-sub">
+            <li> Load a pre-trained model </li>
+            <li> Preprocess the input images and add batch dimension </li>
+            <li> Make model prediction </li> 
+            <li> Decode the predictions to find the class name and confidence scores </li> 
+          </ul>
+          <li> Display the results </li>    
+      </ol>
+
+      <p><u> Outcomes: </u></p>
+      <div class="row mt-3 mb-3">
+        <center><b>Predicted objects with class labels and confidences</b> 
+          <img src="../img/module1a.png" class="img-project rounded shadow">
+        </center>
+      </div>
+
+    </div><br>
+  </section>
+  
+
+
+
+
+
+
+
+    <!-- Projects4 Section -->
+    <section id="projects4">
+      <h3><b><center>Module 2</center></b></h3>
+
+      <div class="container-project">     
+      <p class="p-project"><b> Image Classification using Feedforward Networks in Keras </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify hand-written digits using feed-forward multilayer network architecture for multinomial classification </li>                                
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Load and split the MNIST dataset </li>
+          <li> Pre-process dataset </li>
+          <ul class="ul-sub">
+            <li> Input feature transformation and normalization </li>
+            <li> One-Hot label encoding </li>
+          </ul>
+          <li> Build and train a model using DNN architecture </li>
+          <li> Evaluate a model with loss and accuracy matrics </li>  
+          <li> Predict the test dataset and display the results </li>  
+      </ol>
+
+      <p><u> Outcomes: </u></p>
+      <!-- <div class="row mt-3 mb-5">
+        <center><b>Hand-written digits for training datasets</b> 
+          <img src="../img/module2a.png" class="img-course rounded shadow">
+        </center>
+      </div> -->
+      <div class="row mt-3 mb-3">
+        <center><b>Confusion matrix showing ground truth and predicted labels</b> 
+          <img src="../img/module2a.png" class="img-project rounded shadow">
+        </center>
+      </div>
+
+
+    </div><br>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+    <!-- Projects5 Section -->
+    <section id="projects5">
+      <h3><b><center>Module 3</center></b></h3>
+
+      <div class="container-project">  
+      <p class="p-project"><b> Traffic Sign Recognition using Transfer Learning and Fine-tuning </b></p>
+      <p><u> Objectives: </u></p>
+      <ul class="ul">
+        <li> To classify traffic sign images for traffic sign recognition using fine-tuning pre-trained model with VGG-16 architecture and  </li>                                 
+      </ul>
+
+      <p><u> Steps: </u></p>
+      <ol class="ul">
+          <li> Data pre-processing </li>
+          <ul class="ul-sub">
+            <li> Download and extract dataset </li>                    
+            <li> Create train and validation datasets </li>
+            <li> Create and pre-process test dataset </li>
+          </ul>
+          <li> Model inference using VGG-16 for Fine-Tuning </li>
+          <ul class="ul-sub">
+            <li> Load VGG-16 convolutional base and and instantiate the weights  </li>
+            <li> Freeze the initial layers in convolutional base  </li>
+            <li> Add classifier to complete the model  </li>
+            <li> Compile and train the model  </li>
+          </ul>
+          <li> Model evaluation </li>
+          <ul class="ul-sub">
+            <li> Make predictions on validation dataset </li>
+          </ul>         
+          <li> Deployment </li>
+          <ul class="ul-sub">
+            <li> Make predictions on test dataset </li>
+            <li> Display the results </li>
+          </ul>
+      </ol><br>
+
+      <p><u> Outcomes: </u></p>
+      <div class="row mt-3 mb-3">
+        <center><b>Prediction the traffic signs on test dataset</b> 
+          <img src="../img/module3a.png" class="img-project rounded shadow">
+        </center>
+      </div>
+
+      
+    </div>
+</section>
+
+
+
+
+
+
 
 
 
