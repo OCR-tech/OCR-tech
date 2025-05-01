@@ -46,7 +46,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 
 
 ## 🌟 Projects
-- **CubeOCR**: An OCR tool featuring a built-in text editor and transparent background, suitable for side-by-side paragraphs and code editing.
+- **CubeOCR**: An OCR tool featuring built-in text editor and transparent background, suitable for side-by-side paragraphs and code editing.
 - **AdaptDL**: An advanced real-time object detection system using deep learning and voice commands.
 - **InnoTSR**: An innovative traffic sign recognition system using deep learning and voice feedback for personalized alert systems.
 
