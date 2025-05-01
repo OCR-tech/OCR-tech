@@ -22,7 +22,6 @@
 <body>
 
 
-
     <!-- Header Section -->
     <header>
         <div class="px-3 py-2 border-bottom" style="background-color:rgb(50,50,50);">
@@ -39,13 +38,13 @@
                   </a>
                 </li>
                 <li class="li-header">
-                  <a href="../index.html#about" class="nav-link text-white">
+                  <a href="../index.html#portfolio" class="nav-link text-white">
                     <img src="../svg/book.svg" class="bi d-block mx-auto mb-1"></img>About
                   </a>
                 </li>
                 <li class="li-header">
                     <a href="../index.html#skill" class="nav-link text-white">
-                    <img src="../svg/bank.svg" class="bi d-block mx-auto mb-1"></img>Skills
+                    <img src="../svg/bank.svg" class="bi d-block mx-auto mb-1"></img>Portfolio
                     </a>
                 </li>
                 <li class="li-header">
@@ -69,34 +68,12 @@
 
 
 
-    <!-- Home Section -->
-    <section id="project1">
-        <h2>DS Projects</h2>
-
-        <div class="container-project">
-            <p class="p-indent"> 
-              This page describes machine learning projects that I have completed, which allowed me to gain 
-              hands-on experience and skills in data science and artificail intelligence.  
-              <!-- This page describes machine learning projects and modules that I have completed from the enrolled courses,               
-              allowing me to gain hands-on experience and enhance my professional skills in data science and machine learning.   -->
-            </p><br>
-
-            <p><b><u> Projects: </u></b></p>
-            <ul class="ul">
-              <li> Project 1:&nbsp; Predicting the Sale Price of Bulldozers </li>                     
-              <li> Project 2:&nbsp; Multi-class Dog Breed Classification </li>                     
-            </ul>
-
-          </div><br>
-    </section>
-
-
-
-
-
-
     <!-- Projects1 Section -->
     <section id="projects1">
+      <div class="container-project mt-0 mb-4" style="background-color: rgb(100,100,100); color: white; border-radius: 0px; padding-top: 10px; padding-bottom: 5px;">
+        <h4><b><center>DATA SCIENCE</center></b></h4>
+      </div>
+
       <h3><b><center>Project 1</center></b></h3>
 
         <div class="container-project">
@@ -104,7 +81,7 @@
             <p><u> Objectives: </u></p>
             <ul class="ul">
               <li> To predict the future sale price of bulldozers, given its characteristics and previous samples </li>                     
-              <li> To build and train a model using a random forest regressor with time series data in Colab </li>                     
+              <li> To build and train a model using a random forest regressor with time series data </li>                     
               <!-- <li> To evaluate a model with root mean squared log error (RMSLE) metric </li>              -->
             </ul>
             
@@ -151,10 +128,11 @@
                 </center>
               </div>
 
-
-        </div><br>
+        </div><br><br>
       </section>
       
+
+
 
 
 
@@ -172,8 +150,7 @@
             <ul class="ul">
               <li> To identify the dog breed given a dog image using a multi-class image classifier  </li>                       
               <li> To build a model using deep learning and transfer learning with TensorFlow and TensorFlow Hub </li>             
-              <li> To train a model with 10000+ images of 120 dog breeds (size of 224x224) in Colab</li>             
-              <li> To evaluate a model with prediction probabilities </li>             
+              <li> To train and evaluate the model with prediction probabilities using 10000+ images of 120 dog breeds </li>                   
             </ul>
 
             <p><u> Steps: </u></p>
@@ -200,8 +177,7 @@
                 <li> Training a big dog model with full data</li>
                 <li> Deployment </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on test dataset </li>
-                  <li> Make predictions on custom images </li>
+                  <li> Make predictions on test dataset and custom images </li>
                 </ul>
             </ol>
 
@@ -212,9 +188,7 @@
               </center>
             </div>
 
-
-
-        </div><br>
+        </div><br><br>
     </section>
 
 
@@ -223,42 +197,64 @@
 
 
 
+    <!-- Resources Section -->
+    <section id="resources">
+      <!-- <h5 class="mb-3"><u><center>Data Science</center></u></h4> -->
+      <h3><b><center>Resources</center></b></h3>
+
+      <div class="container-project">            
+        <p><u> Libraries: </u></p>
+        <ul class="ul">
+          <li> NumPy, Pandas, Matplotlib, Seaborn </li>
+          <li> TensorFlow, TensorFlow Hub, Scikit-learn, Keras </li>                                                                          
+        </ul>
+        <p><u> Environments: </u></p>
+        <ul class="ul">
+          <li> Google Colab, Jupyter Notebook, Anaconda, VS Code </li>                                                                          
+        </ul>
+        <p><u> References: </u></p>
+        <ul class="ul">
+          <li> https://github.com/mrdbourke/zero-to-mastery-ml </li>                                                                          
+        </ul>
+      </div>
+    </section>
 
 
-  
+ 
 
 
 
-<section id="button">
-  <center><button class="btn btn-primary mt-4 mb-3" onclick="history.back()" style="width: 125px; height: 40px;">Back</button></center>
-</section id="button">
 
-    
 
+
+      <section id="button">
+        <center>
+          <button class="btn btn-primary mt-4 mb-3 mx-4" onclick="history.back()" style="width: 125px; height: 40px;">Back</button>
+          <button class="btn btn-primary mt-4 mb-3 mx-4" onclick="window.location.href='project_ml_list.html'" style="width: 125px; height: 40px;">Next</button>
+        </center>
+      </section id="button">
+      
+          
+      
     <!-- Footer -->
     <footer>
-
-      <div class="container">
-
-          <center>
+      <div class="container mt-3">
             <div>
               <a href="../index.html#home" class="text-white mx-2">Home</a>
               <span>|</span>
-              <a href="../index.html#about" class="text-white mx-2">About</a>
+              <a href="../index.html#portfolio" class="text-white mx-2">Portfolio</a>
               <span>|</span>
               <a href="../index.html#project" class="text-white mx-2">Projects</a>
               <span>|</span>
               <a href="../index.html#contact" class="text-white mx-2">Contact</a>
             </div>
-          </center>
-          <p>&copy; 2025 OCR-tech</p>
-
+          <p style="text-align: center; margin-top: 5px;">&copy; 2025 OCR-tech</p>
       </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
-</body>
-
-</html>
+    </footer>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+      
+      </body>
+      
+      </html>

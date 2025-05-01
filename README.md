@@ -20,7 +20,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 - Machine Learning: Scikit-Learn, TensorFlow
 - Libraries: OpenCV, Tesseract OCR
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
-- Tools: VSCode, Jypyter, Git, GitHub
+- Tools: VSCode, Jypyter, Git
 <!-- - Database: MySQL, MongoDB -->
 <!-- - Tools: Docker -->
 
@@ -46,7 +46,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 
 
 ## 🌟 Projects
-- **CubeOCR**: An easy-to-use OCR tool featuring a built-in text editor and transparent background, suitable for side-by-side paragraphs and code editing.
+- **CubeOCR**: An OCR tool featuring a built-in text editor and transparent background, suitable for side-by-side paragraphs and code editing.
 - **AdaptDL**: An advanced real-time object detection system using deep learning and voice commands.
 - **InnoTSR**: An innovative traffic sign recognition system using deep learning and voice feedback for personalized alert systems.
 
