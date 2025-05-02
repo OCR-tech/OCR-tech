@@ -88,46 +88,39 @@
             <p class="p-project"><b> Food Vision: Transfer Learning and Fine Tuning </b></p>
             <p><u> Objectives: </u></p>
             <ul class="ul">
-              <li> To classify a food dish from a given food image across 101 different classes using a multi-class image classifier </li>                     
-              <li> To build and train a model by applying transfer learning and fine-tuning with TensorFlow </li>                 
-              <!-- <li> To train a model with 10000+ images of 101 food dishes (size of 224x224) in Colab</li>              -->
-              <li> To evaluate the model using prediction probabilities </li> 
+              <li> To classify a dish from a given food image across 101 different food classes </li>                     
+              <li> To build a model by applying transfer learning and fine-tuning with TensorFlow </li>                 
+              <li> To train the model with 75000+ images of the Food101 dataset </li>             
             </ul>
-            
-
+     
             <p><u> Steps: </u></p>
             <ol class="ol">
                 <li> Data pre-processing </li>
                 <ul class="ul-sub">
-                  <li> Import data and parsing dates </li>
-                  <li> Sort dataframe by saledate </li>
-                  <li> Add datetime parameters for saledate column </li>
-                  <li> Convert string to categories </li>
-                  <li> Fill missing values </li>
-                  <li> Turn categorical variables into numbers </li>
-                  <li> Split data into train/validation sets </li>
+                  <li> Import and explore datasets </li>
+                  <li> Create preprocessing functions </li>
+                  <li> Batch and prepare datasets </li>
+                  <li> Create modelling callbacks </li>
+                  <li> Setup mixed precision training </li>
                 </ul>
                 <li> Building a model </li>
                 <ul class="ul-sub">
-                  <li> Build a machine learning model using random forest regressor </li>
+                  <li> Build a feature extraction model using transfer learning </li>
+                  <li> Fine-tune the feature extraction model </li>
                 </ul>
                 <li> Training a model </li>
                 <ul class="ul-sub">
-                  <li> Train a model using trained dataset </li>
+                  <li> Train the model using trained dataset </li>
                 </ul>
                 <li> Model evaluation </li>
                 <ul class="ul-sub">
-                  <li> Evaluate a model with root mean squared log error (RMSLE) metric </li>
-                </ul>
-                <li> Tuning hyperparameters </li>
-                <ul class="ul-sub">
-                  <li> Tune hyerparameters with RandomizedSearchCV </li>
-                  <li> Train a model with the best hyperparamters </li>
+                  <li> Make predictions on food images using validation dataset </li>
+                  <li> Evaluate for precision, recall, and f1 scores </li>
+                  <li> Create a confusion matrix, and find the most wrong predictions </li>
                 </ul>
                 <li> Deployment </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on test data </li>
-                  <li> Extract Feature Importance  </li>
+                  <li> Make predictions on custom food images with prediction probabilities </li>
                 </ul>
             </ol>
 
@@ -147,8 +140,6 @@
 
 
 
-
-
     <!-- Projects2 Section -->
       <section id="projects2">
         <h3><b><center>Project 2</center></b></h3>
@@ -158,24 +149,24 @@
             <p class="p-project"><b> SkimLit: Natural Language Procesisng </b></p>
             <p><u> Objectives: </u></p>
             <ul class="ul">
-              <li> To identify the dog breed given a dog image using a multi-class image classifier  </li>                       
-              <li> To build a model using deep learning and transfer learning with TensorFlow and TensorFlow Hub </li>             
-              <li> To train a model with 10000+ images of 120 dog breeds (size of 224x224) in Colab</li>             
-              <li> To evaluate a model with prediction probabilities </li>             
+              <li> To classify medical abstract senstences into different sentence classes using NLP models </li>                       
+              <li> To build and train a model with 200,000+ labelled randomized abstracts of PubMed 200k RCT dataset </li>             
+              <li> To evaluate the model with prediction probabilities </li>             
             </ul>
           
             <p><u> Steps: </u></p>
             <ol class="ol">
                 <li> Data pre-processing </li>
                 <ul class="ul-sub">
-                  <li> Get data ready: images and labels </li>             
-                  <li> Create our own validation set </li>
-                  <li> Preprocess images: turning into Tensors </li>
-                  <li> Turn our data into batches </li>
+                  <li> Download and visualize text dataset </li>             
+                  <li> Create helper functions </li>
+                  <li> Convert text into numbers using text vectorization </li>
+                  <li> Turn tokenized text into character and positional embeddings </li>
                 </ul>
                 <li> Building a model </li>
                 <ul class="ul-sub">
-                  <li> Build a model using Keras sequential model and MobileNetV2  </li>
+                  <li> Build several deep learning text models </li>
+                  <li> Create an ensemble model from the pretrained models </li>
                 </ul>
                 <li> Training a model </li>
                 <ul class="ul-sub">
@@ -183,19 +174,17 @@
                 </ul>
                 <li> Model Evaluation </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on validation data using a trained model </li>
+                  <li> Make predictions on validation data </li>
                 </ul>         
-                <li> Training a big dog model with full data</li>
                 <li> Deployment </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on test dataset </li>
-                  <li> Make predictions on custom images </li>
+                  <li> Make predictions on custom medical abstracts </li>
                 </ul>
             </ol>
 
             <p><u> Outcomes: </u></p>
             <div class="row mt-3 mb-3">
-              <center><b>Prediction the dog breed with prediction probabilities</b> 
+              <center><b>Prediction the medical abstract with labels </b> 
                 <img src="../img/project_ml2a.png" class="img-project rounded shadow">
               </center>
             </div>
@@ -222,38 +211,36 @@
           <p class="p-project"><b> BitPredict: Time-Series Forecasting with TensorFlow </b></p>
           <p><u> Objectives: </u></p>
           <ul class="ul">
-            <li> To identify the dog breed given a dog image using a multi-class image classifier  </li>                       
-            <li> To build a model using deep learning and transfer learning with TensorFlow and TensorFlow Hub </li>             
-            <li> To train a model with 10000+ images of 120 dog breeds (size of 224x224) in Colab</li>             
-            <li> To evaluate a model with prediction probabilities </li>             
+            <li> To predict the price of Bitcoin based on historical data with time series forecasting </li>                       
+            <li> To build an ensemble model from several trained time series forecasting models </li>                        
+            <li> To evaluate the model with performance metric of MAE </li>             
           </ul>
 
           <p><u> Steps: </u></p>
           <ol class="ol">
               <li> Data pre-processing </li>
               <ul class="ul-sub">
-                <li> Get data ready: images and labels </li>             
-                <li> Create our own validation set </li>
-                <li> Preprocess images: turning into Tensors </li>
-                <li> Turn our data into batches </li>
+                <li> Get the series data </li>             
+                <li> Format and visualize datasets </li>
+                <li> Turn data into windowing dataset </li>
+                <li> Prepare data for univariate and multivariate time series </li>
               </ul>
               <li> Building a model </li>
               <ul class="ul-sub">
-                <li> Build a model using Keras sequential model and MobileNetV2  </li>
+                <li> Build a serie of time series forecasting models </li>
+                <li> create an ensemble model form the pretrained models </li>
               </ul>
               <li> Training a model </li>
               <ul class="ul-sub">
-                <li> Train a model using trained dataset </li>
+                <li> Train the model using trained dataset </li>
               </ul>
               <li> Model Evaluation </li>
               <ul class="ul-sub">
                 <li> Make predictions on validation data using a trained model </li>
               </ul>         
-              <li> Training a big dog model with full data</li>
               <li> Deployment </li>
               <ul class="ul-sub">
-                <li> Make predictions on test dataset </li>
-                <li> Make predictions on custom images </li>
+                <li> Make predictions for the Bitcoin price on test dataset </li>
               </ul>
           </ol>
 
@@ -438,8 +425,8 @@
     <!-- Resources Section -->
     <section id="resources">
       <h3><b><center>Resources</center></b></h3>
-
       <div class="container-project">            
+        
         <p><u> Libraries: </u></p>
         <ul class="ul">
           <li> TensorFlow, TensorFlow Hub, Scikit-learn, Keras </li>                                                                          
@@ -448,10 +435,6 @@
         <p><u> Environments: </u></p>
         <ul class="ul">
           <li> Google Colab, Jupyter Notebook, Anaconda, VS Code </li>                                                                          
-        </ul>
-        <p><u> References: </u></p>
-        <ul class="ul">
-          <li> https://github.com/mrdbourke/tensorflow-deep-learning </li>                                                                          
         </ul>
       </div>
     </section>
