@@ -37,9 +37,9 @@ p {
 .container-text {
     width: 55%;
     /* width: auto; */
-    border: 1px solid rgb(150,150,150); 
-    border-radius: 15px; 
-    padding: 45px; 
+    border: 1px solid rgb(150,150,150);
+    border-radius: 15px;
+    padding: 45px;
     margin: auto;
     margin-top: 25px;
     text-align: justify;
@@ -52,9 +52,9 @@ p {
 .container-project {
     width: 55%;
     /* width: auto; */
-    border: 1px solid rgb(150,150,150); 
-    border-radius: 15px; 
-    padding: 45px; 
+    border: 1px solid rgb(150,150,150);
+    border-radius: 15px;
+    padding: 45px;
     margin: auto;
     margin-top: 20px;
     /* text-align: justify; */
@@ -69,7 +69,7 @@ p {
     /* margin: auto; */
     /* padding: 20px; */
     /* justify-content: space-around; */
-    display: flex; 
+    display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 35px;
@@ -79,18 +79,18 @@ p {
 
 
 .container-align {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
 
 .left {
-    text-align: left;    
+    text-align: left;
 
 }
 
 .right {
-    text-align: right;    
+    text-align: right;
 }
 
 
@@ -100,7 +100,7 @@ p {
 
 
 #project {
-    background-color: rgb(50,50,50); 
+    background-color: rgb(50,50,50);
 }
 
 
@@ -113,9 +113,9 @@ p {
     width: auto;
     margin: auto;
     /* border: 1px solid rgb(285,285,285);  */
-    border-radius: 15px;     
+    border-radius: 15px;
     /* margin-top: 35px; */
-    background-color: rgb(50,50,50); 
+    background-color: rgb(50,50,50);
 }
 
 .project {
@@ -138,17 +138,17 @@ p {
 
 .column-project {
     width: 65%;
-    border: 1px solid rgb(150,150,150); 
-    border-radius: 25px; 
+    border: 1px solid rgb(150,150,150);
+    border-radius: 25px;
     margin: auto;
     /* margin-bottom: 35px; */
 }
 
 
 .row-project {
-    display: flex; 
-    justify-content: center; 
-    align-content: center; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-top: 35px;
     width: 100%;
 }
@@ -162,9 +162,9 @@ p {
     width: 85%;
     /* border: 1px solid rgb(185, 185, 185);  */;
   }
-  
 
-  
+
+
 header {
     background: #ffffff;
     color: white;
@@ -173,7 +173,7 @@ header {
     /* font-size: 1vw; */
     font-size: 12px;
     text-transform: uppercase;
-    text-align: center; 
+    text-align: center;
 }
 
 header h1 {
@@ -191,7 +191,7 @@ header h1 {
 .nav {
     /* border: 3px solid; */
     /* border-radius:15px;  */
-    padding: 0px; 
+    padding: 0px;
     margin: 0px"
 }
 
@@ -216,8 +216,8 @@ nav ul li a {
 
 /* .nav-link {
     border: 1px solid green;
-    border-radius: 15px; 
-    padding: 0px; 
+    border-radius: 15px;
+    padding: 0px;
     margin: 0px"
 } */
 
@@ -234,7 +234,7 @@ a {
     cursor:pointer;
     background-color: green;
     position: relative;
-    left: 0px; 
+    left: 0px;
     top: 0px;
 }
 
@@ -420,9 +420,9 @@ margin: 15px;
 }
 
 .button-round3:active {
-    border-color: #d56000;
+    border-color: #868686;
     transform: scale(0.96);
-    background-color: #d54e00;
+    background-color: #474747;
 }
 
 
@@ -435,19 +435,19 @@ margin: 15px;
 
 /* Buttons */
 .btn-button {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font: 1em sans-serif;
     background-color: rgb(0, 127, 255);
     border: none;
-    width: 150px; 
-    height: 45px; 
+    width: 150px;
+    height: 45px;
     border-radius: 5px;
     color: white;
     text-align: center;
   }
-  
+
   .btn-button:hover {
     background-color: rgb(0, 95, 215);
     color: white;
@@ -527,17 +527,17 @@ footer a {
     }
 
 
-    
+
     .container-text {
         width: 90%;
-        padding: 25px; 
+        padding: 25px;
     }
 
 
 
     .container-project {
         width: 90%;
-        padding: 25px; 
+        padding: 25px;
     }
 
 
@@ -569,7 +569,7 @@ footer a {
         /* font-size: 1vw; */
         font-size: 8.5px;
         text-transform: uppercase;
-        text-align: center; 
+        text-align: center;
     }
 
     .button-round {
