@@ -48,7 +48,7 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 ## 🌟 Projects
 - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An OCR tool featuring a built-in text editor and transparent background, suitable for side-by-side paragraphs editing.
 - **[AdaptDL](https://github.com/OCR-tech/AdaptDL)**: An advanced real-time object detection system using deep learning and voice commands.
-- **[InnoTSR](https://github.com/OCR-tech/InnoTSR)**: An innovative traffic sign recognition system using deep learning and voice feedback alert for personalized rider-assistache systems.
+- **[InnoTSR](https://github.com/OCR-tech/InnoTSR)**: An innovative traffic sign recognition system using deep learning and voice feedback for personalized alert systems.
 
 <!-- - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An easy-to-use OCR tool featuring a built-in text editor, transparent background, and image noise filtering, suitable for side-by-side paragraphs and code editing.
 
