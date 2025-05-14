@@ -1,14 +1,16 @@
 # Welcome 👋
-This is my portfolio profile. I'm passionate about machine learning, artificial intelligence, computer vision, and optical character recognition (OCR) technology and their applications.
+This is my portfolio profile. I'm passionate about artificial intelligence, machine learning, computer vision, and optical character recognition (OCR) technology and their applications.
 
 
 ## 🚀 About Me
-- I specialize in developing deep learning-based object detection and OCR algorithms.
+<!-- - I specialize in developing deep learning-based object detection and OCR algorithms. -->
+<!-- - I am currently focused on developing deep learning-based object detection and OCR algorithms. -->
+- I am a software engineer with a keen interest in AI application development.
 - I love exploring new technologies and staying updated with the tech world.
 - I'm open to collaborating on interesting projects and open-source communities.
 
 
-## 🔧 Skills & Tools
+<!-- ## 🔧 Skills & Tools -->
 
 <!-- Specialities & Technologies:
  - Data Science and Artificail Intelligence
@@ -16,13 +18,13 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
  - Computer Vision and Image Processing
  - Optical character recognition (OCR) -->
 
-- Programming Languages: Python
+<!-- - Programming Languages: Python
 - Machine Learning: Scikit-Learn, TensorFlow, PyTorch
 - Libraries: OpenCV, Tesseract OCR
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
 - Tools: VSCode, Jypyter, Git
-<!-- - Database: MySQL, MongoDB -->
-<!-- - Tools: Docker -->
+- Database: MySQL, MongoDB
+- Tools: Docker -->
 
 
 
@@ -34,14 +36,14 @@ This is my portfolio profile. I'm passionate about machine learning, artificial 
 **Tools**: VSCode, Pycharm, Docker, Jypyter, Git, GitHub <br>
 **Version Control**: Git, GitHub <br> -->
 
-&emsp;
+<!-- &emsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="icon" width="20" height="20"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="icon" width="20" height="20"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="icon" width="20" height="20"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="icon" width="20" height="20"/>
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="icon" width="20" height="20"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="icon" width="20" height="20"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="icon" width="20" height="20"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="icon" width="20" height="20"/> -->
 
 
 
