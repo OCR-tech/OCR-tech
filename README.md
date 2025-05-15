@@ -5,15 +5,14 @@ This is my portfolio profile. I'm passionate about artificial intelligence, mach
 ## 🚀 About Me
 <!-- - I specialize in developing deep learning-based object detection and OCR algorithms. -->
 <!-- - I am currently focused on developing deep learning-based object detection and OCR algorithms. -->
-- I am a software engineer with a keen interest in AI application development.
+- I am a software engineer specializing in AI application development.
 - I love exploring new technologies and staying updated with the tech world.
 - I'm open to collaborating on interesting projects and open-source communities.
 
 
 <!-- ## 🔧 Skills & Tools -->
-
 <!-- Specialities & Technologies:
- - Data Science and Artificail Intelligence
+ - Data Science and Artificial Intelligence
  - Machine Learning/ Deep Learning
  - Computer Vision and Image Processing
  - Optical character recognition (OCR) -->
@@ -22,7 +21,7 @@ This is my portfolio profile. I'm passionate about artificial intelligence, mach
 - Machine Learning: Scikit-Learn, TensorFlow, PyTorch
 - Libraries: OpenCV, Tesseract OCR
 - Web Development: HTML, CSS, Javascript, Nodejs, Bootstrap
-- Tools: VSCode, Jypyter, Git
+- Tools: VSCode, Jupyter, Git
 - Database: MySQL, MongoDB
 - Tools: Docker -->
 
@@ -58,6 +57,6 @@ This is my portfolio profile. I'm passionate about artificial intelligence, mach
 - <a href="https://github.com/OCR-tech/AdaptDL"><b>AdaptDL</b></a>: An advanced real-time object detection based on voice speech command using deep learning. -->
 
 
-Feel free to check out my repositories and contributions. Let's build something amazing together!
-
+Feel free to check out my repositories and contributions.
+<!-- Let's build something amazing together! -->
 Happy Coding! 😊
