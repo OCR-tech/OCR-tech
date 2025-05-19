@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  
-    
+
+
 </head>
 
 
@@ -62,7 +62,7 @@
         </div>
       </div>
     </header>
-    
+
 
 
 
@@ -72,7 +72,7 @@
     </section> -->
 
 
-    
+
 
 
 
@@ -89,13 +89,13 @@
       <p class="p-project"><b> Deep Learning based Object Detection </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
-        <li> To detect objects using a pre-trained DNN Mobilenet architecture model </li>                                
+        <li> To detect objects using a pre-trained DNN Mobilenet architecture model </li>
       </ul>
 
       <p><u> Steps: </u></p>
       <ol class="ul">
           <li> Download assets and check class labels </li>
-          <li> Model inference </li>       
+          <li> Model inference </li>
           <ul class="ul-sub">
             <li> Load a model and input image </li>
             <li> Detect objects using a forward pass through the network </li>
@@ -105,15 +105,15 @@
 
       <p><u> Outcomes: </u></p>
       <div class="row mt-3 mb-3">
-        <center><b>Detected objects with class labels and bounding boxes</b> 
+        <center><b>Detected objects with class labels and bounding boxes</b>
           <img src="../img/module_cv1a.png" class="img-project rounded shadow">
       </div></center>
 
-      
+
     </div><br><br>
   </section>
-  
-  
+
+
 
 
 
@@ -124,12 +124,12 @@
     <!-- Modules2 Section -->
     <section id="modules2">
       <h3><b><center>Module 2</center></b></h3>
-      
+
       <div class="container-project">
       <p class="p-project"><b> Object Detection using TensorFlow Hub </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
-        <li> To detect objects using a pre-trained object detection EfficientDet D4 architecture model </li>                                
+        <li> To detect objects using a pre-trained object detection EfficientDet D4 architecture model </li>
       </ul>
 
       <p><u> Steps: </u></p>
@@ -140,25 +140,25 @@
             <li> Define dictionary and map class IDs to class names </li>
           </ul>
 
-          <li> Model Inference using Tensorflow Hub </li>       
+          <li> Model Inference using Tensorflow Hub </li>
           <ul class="ul-sub">
             <li> Load a pre-trained model </li>
             <li> Post-process with different detection thresholds </li>
             <li> Display detected objects </li>
           </ul>
-          <li> Formalize the Implementation </li>    
+          <li> Formalize the Implementation </li>
           <ul class="ul-sub">
             <li> Perform inference on each image and store the results in a list </li>
             <li> Loop over each of the images and display annotated images </li>
-          </ul>           
+          </ul>
       </ol>
 
       <p><u> Outcomes: </u></p>
       <div class="row mt-3 mb-3">
-        <center><b>Detected objects with class labels and confidences</b> 
+        <center><b>Detected objects with class labels and confidences</b>
           <img src="../img/module_cv2a.png" class="img-project rounded shadow">
         </div></center>
-      
+
     </div><br><br>
 </section>
 
@@ -177,7 +177,7 @@
       <p class="p-project"><b> Instance Segmentation with Mask RCNN </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
-        <li> To classify each pixel of a given image to a particular class, and assigning a unique identity to the pixels of individual objects </li>                                
+        <li> To classify each pixel of a given image to a particular class, and assigning a unique identity to the pixels of individual objects </li>
       </ul>
 
       <p><u> Steps: </u></p>
@@ -185,16 +185,17 @@
           <li> Create help functions </li>
           <li> Download the pre-trained model </li>
           <li> Download sample images  </li>
-          <li> Run inference on the image </li> 
+          <li> Run inference on the image </li>
+          <li> Visualize the results </li>
       </ol>
 
       <p><u> Outcomes: </u></p>
       <div class="row mt-3 mb-3">
-        <center><b> Instance segmentation on objects </b> 
+        <center><b> Instance segmentation on objects </b>
           <img src="../img/module_cv3a.png" class="img-project rounded shadow">
-      </div></center>      
+      </div></center>
 
-     
+
     </div><br><br>
 </section>
 
@@ -215,7 +216,7 @@
       <p class="p-project"><b> Object Tracking </b></p>
       <p><u> Objectives: </u></p>
       <ul class="ul">
-        <li> To track objects using a tracker class for computer vision </li>                                
+        <li> To track objects using a tracker class for computer vision </li>
       </ul>
 
       <p><u> Steps: </u></p>
@@ -226,15 +227,15 @@
           <li> Setup output video </li>
           <li> Define bounding box </li>
           <li> Intilialize tracker </li>
-          <li> Read frame and track object </li>        
+          <li> Read frame and track object </li>
       </ol>
 
       <p><u> Outcomes: </u></p>
       <div class="row mt-3 mb-3">
-        <center><b>Tracked objects with bounding box</b> 
+        <center><b>Tracked objects with bounding box</b>
           <img src="../img/module_cv4a.png" class="img-project rounded shadow">
-      </div></center>      
-     
+      </div></center>
+
     </div><br><br>
 </section>
 
@@ -254,21 +255,21 @@
 
 
     <!-- Resources Section -->
-    <section id="resources">
+    <!-- <section id="resources">
       <h3><b><center>Resources</center></b></h3>
-      <div class="container-project">            
-        
+      <div class="container-project">
+
         <p><u> Libraries: </u></p>
         <ul class="ul">
-          <li> TensorFlow, TensorFlow Hub, Keras </li>                                                                          
+          <li> TensorFlow, TensorFlow Hub, Keras </li>
           <li> NumPy, Matplotlib </li>
         </ul>
         <p><u> Environments: </u></p>
         <ul class="ul">
-          <li> Google Colab </li>                                                                          
+          <li> Google Colab </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
 
 
@@ -277,7 +278,7 @@
 
 
 
-  
+
 
 
 
@@ -290,7 +291,7 @@
   </center>
 </section id="button">
 
-    
+
 
     <!-- Footer -->
     <footer>
