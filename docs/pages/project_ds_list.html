@@ -21,7 +21,6 @@
 
 <body>
 
-
     <!-- Header Section -->
     <header>
         <div class="px-3 py-2 border-bottom" style="background-color:rgb(50,50,50);">
@@ -81,8 +80,8 @@
             <p><u> Objectives: </u></p>
             <ul class="ul">
               <li> To predict the future sale price of bulldozers, given its characteristics and previous samples </li>
-              <li> To build and train a model using a random forest regressor with time series data </li>
-              <!-- <li> To evaluate a model with root mean squared log error (RMSLE) metric </li>              -->
+              <li> To build and train a model using a random forest regressor with time-series data </li>
+              <li> To tune hyperparameters using RandomizedSearchCV </li>
             </ul>
 
             <p><u> Steps: </u></p>
@@ -137,12 +136,66 @@
 
 
 
-
-
     <!-- Projects2 Section -->
     <section id="projects2">
       <h3><b><center>Project 2</center></b></h3>
 
+      <div class="container-project">
+            <p class="p-project"><b> Heart Disease Classification </b></p>
+            <p><u> Objectives: </u></p>
+            <ul class="ul">
+              <li> To classify the presence of heart disease in patients based on various health metrics using a classification model </li>
+              <li> To build a model using machine learning techniques, including logistic regression, decision trees, and ensemble methods </li>
+              <li> To train and evaluate the model with prediction probabilities using a dataset of heart disease patients </li>
+            </ul>
+
+            <p><u> Steps: </u></p>
+            <ol class="ol">
+                <li> Data pre-processing </li>
+                <ul class="ul-sub">
+                  <li> Get data ready: images and labels </li>
+                  <li> Create our own validation set </li>
+                  <li> Preprocess images: turning into Tensors </li>
+                  <li> Turn our data into batches </li>
+                </ul>
+                <li> Building a model </li>
+                <ul class="ul-sub">
+                  <li> Build a model using Keras sequential model and MobileNetV2  </li>
+                </ul>
+                <li> Training a model </li>
+                <ul class="ul-sub">
+                  <li> Train a model using trained dataset </li>
+                </ul>
+                <li> Evaluating a model </li>
+                <ul class="ul-sub">
+                  <li> Make predictions on validation data using a trained model </li>
+                </ul>
+                <li> Training a model with full data</li>
+                <li> Deployment </li>
+                <ul class="ul-sub">
+                  <li> Make predictions on test dataset and custom images </li>
+                </ul>
+            </ol>
+
+            <p><u> Outcomes: </u></p>
+            <div class="row mt-3 mb-3">
+              <center><b>Prediction the heart disease presence with prediction probabilities</b>
+                <img src="../img/project_ds2a.png" class="img-project rounded shadow">
+              </center>
+            </div>
+
+        </div><br><br>
+    </section>
+
+
+
+
+
+
+
+    <!-- Projects3 Section -->
+    <section id="projects3">
+      <h3><b><center>Project 3</center></b></h3>
 
       <div class="container-project">
             <p class="p-project"><b> Multi-class Dog Breed Classification </b></p>
@@ -170,11 +223,11 @@
                 <ul class="ul-sub">
                   <li> Train a model using trained dataset </li>
                 </ul>
-                <li> Model Evaluation </li>
+                <li> Evaluating a model </li>
                 <ul class="ul-sub">
                   <li> Make predictions on validation data using a trained model </li>
                 </ul>
-                <li> Training a big dog model with full data</li>
+                <li> Training a model with full data</li>
                 <li> Deployment </li>
                 <ul class="ul-sub">
                   <li> Make predictions on test dataset and custom images </li>
@@ -184,37 +237,12 @@
             <p><u> Outcomes: </u></p>
             <div class="row mt-3 mb-3">
               <center><b>Prediction the dog breed with prediction probabilities</b>
-                <img src="../img/project_ds2a.png" class="img-project rounded shadow">
+                <img src="../img/project_ds3a.png" class="img-project rounded shadow">
               </center>
             </div>
 
         </div><br><br>
     </section>
-
-
-
-
-
-
-
-    <!-- Resources Section -->
-    <!-- <section id="resources">
-      <h3><b><center>Resources</center></b></h3>
-
-      <div class="container-project">
-        <p><u> Libraries: </u></p>
-        <ul class="ul">
-          <li> TensorFlow, TensorFlow Hub, Scikit-learn, Keras </li>
-          <li> NumPy, Pandas, Matplotlib, Seaborn </li>
-        </ul>
-        <p><u> Environments: </u></p>
-        <ul class="ul">
-          <li> Google Colab, Jupyter Notebook, Anaconda, VS Code </li>
-        </ul>
-      </div>
-    </section> -->
-
-
 
 
 
