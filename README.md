@@ -1,5 +1,5 @@
-# 👋 Welcome 
-This is my portfolio profile. I'm passionate about artificial intelligence, machine learning, computer vision, and optical character recognition (OCR) technology and their applications.
+# 👋 Welcome
+This is my portfolio profile. I'm passionate about artificial intelligence, machine learning, and computer vision and their applications.
 
 
 ## 🚀 About Me
