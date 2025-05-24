@@ -154,7 +154,7 @@
               <li> To evaluate the model with prediction probabilities </li>
             </ul>
 
-            
+
             <p><u> Steps: </u></p>
             <ol class="ol">
                 <li> Data pre-processing </li>
@@ -245,26 +245,18 @@
               <ul class="ul-sub">
                 <li> Get the series data </li>
                 <li> Format and visualize datasets </li>
-                <li> Turn data into windowing dataset </li>
-                <li> Prepare data for univariate and multivariate time series </li>
               </ul>
-              <li> Building a model </li>
-              <ul class="ul-sub">
-                <li> Build a serie of time series forecasting models </li>
-                <li> Create an ensemble model form the pretrained models </li>
-              </ul>
-              <li> Training a model </li>
-              <ul class="ul-sub">
-                <li> Train the model using trained dataset </li>
-              </ul>
-              <li> Model Evaluation </li>
-              <ul class="ul-sub">
-                <li> Make predictions on validation data </li>
-              </ul>
-              <li> Deployment </li>
-              <ul class="ul-sub">
-                <li> Make predictions for the Bitcoin price on test dataset </li>
-              </ul>
+              <li> Model 0: Naive forecast (baseline) </li>
+              <li> Model 1: Dense model (window=7, horizon=1) </li>
+              <li> Model 2: Dense model (window=30, horizon=1) </li>
+              <li> Model 3: Dense model (window=30, horizon=7) </li>
+              <li> Model 4: Conv1D </li>
+              <li> Model 5: RNN (LSTM) </li>
+              <li> Model 6: Dense (multivariate time series) </li>
+              <li> Model 7: N-BEATS algorithm </li>
+              <li> Model 8: Ensemble model </li>
+              <li> Model 9: Dense on full data </li>
+              <li> Compare models </li>
           </ol>
 
           <p><u> Outcomes: </u></p>
