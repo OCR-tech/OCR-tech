@@ -159,27 +159,54 @@
                 <li> Data pre-processing </li>
                 <ul class="ul-sub">
                   <li> Download and visualize text dataset </li>
-                  <li> Create helper functions </li>
+                  <li> Get lists of sentences </li>
+                  <li> Make numeric labels </li>
+                </ul>
+                <li> Model 0: baseline model </li>
+                <ul class="ul-sub">
+                  <li> Building a model </li>
+                  <li> Model evaluation </li>
+                </ul>
+                <li> Model 1: Conv1D with token embeddings </li>
+                <ul class="ul-sub">
                   <li> Convert text into numbers using text vectorization </li>
-                  <li> Turn tokenized text into character and positional embeddings </li>
+                  <li> Creating custom text embedding </li>
+                  <li> Creating datasets </li>
+                  <li> Building a model </li>
+                  <li> Model evaluation </li>
                 </ul>
-                <li> Building a model </li>
+                <li> Model 2: Feature extraction with pretrained token embeddings </li>
                 <ul class="ul-sub">
-                  <li> Build several deep learning text models </li>
-                  <li> Create an ensemble model from the pretrained models </li>
+                  <li> Building a model </li>
+                  <li> Model evaluation </li>
                 </ul>
-                <li> Training a model </li>
+                <li> Model 3: Conv1D with character embeddings </li>
                 <ul class="ul-sub">
-                  <li> Train a model using trained dataset </li>
+                  <li> Creating character-level token vectorizer instance </li>
+                  <li> Creating character-level embedding </li>
+                  <li> Building a model </li>
+                  <li> Model evaluation </li>
                 </ul>
-                <li> Model Evaluation </li>
+                <li> Model 4: hybrid embeddings (token embeddings and character embeddings) </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on validation data </li>
+                  <li> Building a model </li>
+                  <li> Combining token and character data into dataset </li>
+                  <li> Model evaluation </li>
                 </ul>
-                <li> Deployment </li>
+                <li> Model 5: Transfer learning (pretrained token + character + positional embeddings) </li>
                 <ul class="ul-sub">
-                  <li> Make predictions on custom medical abstracts </li>
+                  <li> Create positional embeddings </li>
+                  <li> Building a model </li>
+                  <li> Create tribid embedding dataset </li>
+                  <li> Model evaluation </li>
                 </ul>
+                <li> Comparision performance </li>
+                <ul class="ul-sub">
+                  <li> Make preditions and evaluation </li>
+                  <li> Evaluate model on test dataset </li>
+                  <li> Find most wrong </li>
+                </ul>
+                <li> Make example prediction </li>
             </ol>
 
             <p><u> Outcomes: </u></p>
@@ -189,13 +216,8 @@
               </center>
             </div>
 
-
         </div><br><br>
     </section>
-
-
-
-
 
 
 
