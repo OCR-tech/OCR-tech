@@ -7,7 +7,7 @@ This is my portfolio profile. I'm passionate about artificial intelligence, mach
 <!-- - I am currently focused on developing deep learning-based object detection and OCR algorithms. -->
 <!-- - I love exploring new technologies and staying updated with the tech world. -->
 - I am a software engineer specializing in AI application development.
-- I'm open to collaborating on interesting projects and open-source communities.
+- I'm open to collaborating on projects and open-source communities.
 
 
 
