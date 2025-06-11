@@ -3,9 +3,9 @@ This is my Portfolio profile. I'm passionate about artificial intelligence, mach
 
 
 ## 🚀 About Me
-- I am a software engineer specializing in AI application development.
-- I am interested in building innovative solutions for real-world applications.
-- I am open to collaborating on projects and open-source communities.
+- I'm a software engineer specializing in AI application development.
+- I'm interested in building innovative solutions for real-world applications.
+- I'm open to collaborating on projects and open-source communities.
 
 
 <!-- ## 🔧 Skills & Tools
