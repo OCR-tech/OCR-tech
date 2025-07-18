@@ -47,8 +47,7 @@ Specialities & Technologies:
 - **[CubeOCR](https://github.com/OCR-tech/CubeOCR)**: An OCR tool featuring a built-in text editor and transparent background for side-by-side paragraph and code editing.
 - **[AdaptDL](https://github.com/OCR-tech/AdaptDL)**: An advanced real-time object detection system using deep learning and voice commands for surveillance applications.
 - **[InnoTSR](https://github.com/OCR-tech/InnoTSR)**: An innovative traffic sign recognition system using deep learning and voice feedback for personalized alert systems.
-- **[OpenLens](https://github.com/OCR-tech/OpenLens)**: A web-based application for real-time object detection systems.
+- **[OpenLens](https://github.com/OCR-tech/OpenLens)**: A web-based application for real-time object detection systems and video analysis.
 <!-- - **[InnoOCR](https://github.com/OCR-tech/InnoOCR)**: An intelligent OCR system leveraging deep learning for accurate text recognition and extraction. -->
 
 Feel free to check out my repositories and contributions.
-<!-- Happy Coding! 😊 -->
